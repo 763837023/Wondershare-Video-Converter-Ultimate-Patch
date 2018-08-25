@@ -1,0 +1,1753 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LanguageResource Id="CHS" Name="Simplified Chinese" LocaleName="简体中文" Version="1.1" LangID="0x0804" CodePage="936" NameOrder="GivenFamilyName">  
+  <Default> 
+    <Font Name="Noto Sans" Size="8.25" /> 
+  </Default>  
+  <Strings>
+    <!--KVC新增-->
+	<INF_Sameassource>和来源相同</INF_Sameassource>
+	<INF_IncrementalUpgradeTips>一些问题已经修复，要立即重启程序吗？</INF_IncrementalUpgradeTips>
+	<INF_HighSpeedTip1>高速转换是一种可让您以高速度转换视频格式，而不会有质量损失的技术。为了能够激活和使用高速转换技术，我们的软件必须支持这些格式。</INF_HighSpeedTip1>	
+	<INF_HighSpeedTip2>支持导入的格式：MKV 的 H.264 编解码格式, AVI, MPG, TS, TRP, MP4, M4V, M2TS, MTS, MOV, FLV. </INF_HighSpeedTip2>
+        <INF_HighSpeedTip3>支持导出的格式：MKV, AVI, MP4, M4V, MOV.</INF_HighSpeedTip3>
+	<!--KVC新增 end-->
+    <INF_PlaySound>任务完成时声音提醒</INF_PlaySound>
+	<INF_RemoveAfterConvert>转换完成后从转换列表中删除源文件</INF_RemoveAfterConvert>
+	<INF_BurnCannotMusic>Wondershare Video Converter Ultimate 不支持刻录音频文件。</INF_BurnCannotMusic>
+    <INF_SaveMetadata>保存视频元数据</INF_SaveMetadata>
+    <INF_SureceSame>与源文件夹相同</INF_SureceSame>
+    <INF_OutPut>输出</INF_OutPut> 
+    <INF_Close>关闭</INF_Close>
+    <INF_KeycodeEmpty>无效的许可邮箱或注册码！许可邮箱和注册码都是区分大小写的，请检查您的注册信息，或确保您的注册码与当前版本相符。</INF_KeycodeEmpty>
+    <INF_Register_Failed>无效的许可邮箱或注册码！许可邮箱和注册码都是区分大小写的，请检查您的注册信息，或确保您的注册码与当前版本相符。</INF_Register_Failed>
+    <INF_Register_Success>恭喜！Video Converter Ultimate 已成功激活！</INF_Register_Success>
+	<INF_RegCodeTips>www.carrotchou.blog</INF_RegCodeTips>
+    <INF_VideoMetadataEditWarning>请在编辑之前备份，避免保存导致源文件不可用的错误。</INF_VideoMetadataEditWarning>
+    <INF_OriginalRes>原始分辨率</INF_OriginalRes>
+    <INF_WaterMarkImageTooLager>水印图片的大小不能超过1820 * 1080！</INF_WaterMarkImageTooLager> 
+    <INF_ResNeedSame>源文件的分辨率不一致，不能应用到全部</INF_ResNeedSame>
+    <!--Setting-->
+    <INF_Reso_Error>请输入适当的分辨率（例如： {0}*{1}. 这两个值必须是偶数，范围从 {2}*{3} 到 {4}*{5}之间）</INF_Reso_Error>   
+    <INF_VideoBitrate_Erro>请输入适当的视频码率</INF_VideoBitrate_Erro>
+    <INF_AudioBitrate_Erro>请输入适当的音频码率</INF_AudioBitrate_Erro>
+    <INF_BurnConertedFailed>转换失败！</INF_BurnConertedFailed>
+    <INF_DeleteOrgFile>同时删除已转换的文件。</INF_DeleteOrgFile>  
+    <INF_RemoveConvertingItemsInfo>您确定要删除所选文件吗？</INF_RemoveConvertingItemsInfo>  
+    <INF_CannotPlayprotectFile>无法预览受保护的文件。</INF_CannotPlayprotectFile>  
+    <INF_RemoveItemInfo>您确定要删除所选项目吗？</INF_RemoveItemInfo>  
+    <INF_RemoveConvertingItemInfo>您确定要删除所选项目吗？</INF_RemoveConvertingItemInfo>  
+    <INF_FolderNoFile>文件夹中找不到文件。</INF_FolderNoFile>  
+    <INF_BurnningDRM_cannotConvertDRM>现在刻录DRM文件，请在刻录完成后转换文件。</INF_BurnningDRM_cannotConvertDRM>  
+    <INF_ConvertingDRM_cannotBurnDRM>现在转换DRM文件，请在完成转换后刻录文件。</INF_ConvertingDRM_cannotBurnDRM>  
+    <INF_DriveCheckError>安装虚拟声卡失败。</INF_DriveCheckError>  
+    <INF_CloaseiTunesTips>要成功转换受DRM保护的文件，请先关闭iTunes。</INF_CloaseiTunesTips>  
+    <INF_CloaseItunes>关闭 iTunes</INF_CloaseItunes>  
+    <INF_DiskNoSpace>没有足够的空间，请在首选项中更改保存路径。</INF_DiskNoSpace>  
+    <INF_ChromeInstallTip>您可以随时在首选项中安装下载按钮。</INF_ChromeInstallTip>  
+    <INF_InvalidChar>无效字符！</INF_InvalidChar>  
+    <INF_FileExists>[{0}] 已存在！</INF_FileExists>  
+    <INF_None>无</INF_None>  
+    <INF_AddSubTitle>添加标题</INF_AddSubTitle>
+    <INF_Fail>失败</INF_Fail>  
+    <INF_Converter_AUTHORIZEFAIL>授权错误</INF_Converter_AUTHORIZEFAIL>  
+    <INF_Converter_Fail>一般错误</INF_Converter_Fail>  
+    <INF_Converter_NODEC>一般错误</INF_Converter_NODEC>  
+    <INF_Converter_NOENC>一般错误</INF_Converter_NOENC>  
+    <INF_Converter_FILE>转换文件失败</INF_Converter_FILE>  
+    <INF_Converter_DEVICE>设置失败</INF_Converter_DEVICE>  
+    <INF_Converter_FILTER>一般错误</INF_Converter_FILTER>  
+    <INF_Converter_QUICKTIME>QuickTime 未安装</INF_Converter_QUICKTIME>  
+    <INF_Converter_ITUNES>iTunes 播放器错误</INF_Converter_ITUNES>  
+    <INF_Converter_OUTTIME>授权超时</INF_Converter_OUTTIME>  
+    <INF_Converter_DisknotEnough>没有足够的磁盘空间</INF_Converter_DisknotEnough>  
+    <INF_Converter_NODEVICE>虚拟声卡未安装</INF_Converter_NODEVICE>  
+    <INF_Converter_NOITUNES>iTunes 未安装</INF_Converter_NOITUNES>  
+    <INF_Converter_NOQUICKTIME>QuickTime 未安装</INF_Converter_NOQUICKTIME>  
+    <INF_Paused>暂停</INF_Paused>  
+    <INF_Resume>恢复</INF_Resume>  
+    <INF_Waiting>等待</INF_Waiting>  
+    <INF_Success>成功</INF_Success>  
+    <INF_Convert>转换</INF_Convert>  
+    <INF_Remaining>剩余</INF_Remaining>  
+    <INF_ChangeFormatMergering>在合并时您不能更改格式，请稍后再试。</INF_ChangeFormatMergering>  
+    <INF_WaitingMergeCompleted>在合并时您不能添加文件，请稍后再试。</INF_WaitingMergeCompleted>  
+    <INF_LoadDVDFolder>加载 DVD 文件夹</INF_LoadDVDFolder>  
+    <INF_LoadIFO>加载 IFO 文件</INF_LoadIFO>  
+    <INF_LoadISO>加载 ISO 文件</INF_LoadISO>  
+    <INF_CancelConvert>您确定要取消转换吗？</INF_CancelConvert>  
+    <INF_NotExistsFilesName>{0} 不存在！</INF_NotExistsFilesName>  
+    <INF_DrmPreConvert>合并前我们将先转换 DRM 文件。</INF_DrmPreConvert>  
+    <INF_RemoveConvertingItemsInfo>文件正在转换，您确定要删除所选项目吗？</INF_RemoveConvertingItemsInfo>  
+    <INF_CancelAll>取消全部</INF_CancelAll>  
+    <INF_ConvertAll>转换全部</INF_ConvertAll>  
+    <INF_Target>目标</INF_Target>  
+    <INF_CurrentExportFile>导出: {0}</INF_CurrentExportFile>  
+    <INF_CancelExport>你确定要取消导出吗？</INF_CancelExport>  
+    <INF_AddToConvert>添加到转换列表</INF_AddToConvert>  
+    <INF_AddToBurn>添加到刻录列表</INF_AddToBurn>  
+    <INF_Version>版本: {0}  汉化：慕若曦</INF_Version>  
+    <INF_Cachsystemfont>加载系统字体，请稍等片刻...</INF_Cachsystemfont>  
+    <INF_DVDAnalys>分析 DVD...</INF_DVDAnalys>  
+    <INF_AddingFiles>添加文件: {0}</INF_AddingFiles>  
+    <INF_OK>确定</INF_OK>  
+    <INF_RepairVOBFile>修复: {0}</INF_RepairVOBFile>  
+    <INF_DRMProtectFiles>受 DRM 保护的文件</INF_DRMProtectFiles>    
+    <INF_FileName>文件名：</INF_FileName>
+    <INF_Format>格式：</INF_Format>  
+    <INF_Duration>时长：</INF_Duration>  
+    <INF_BitRate>码率：</INF_BitRate>  
+    <INF_FileSize>文件大小：</INF_FileSize>  
+    <INF_VideoStreanCount>视频流计数：</INF_VideoStreanCount>  
+    <INF_AudioStreanCount>音频流计数：</INF_AudioStreanCount>  
+    <INF_SubtitleStreanCount>字幕流计数：</INF_SubtitleStreanCount>  
+    <INF_VideoStream>视频流</INF_VideoStream>  
+    <INF_VideoFourcc>视频编码</INF_VideoFourcc>  
+    <INF_VideoBitRate>视频码率</INF_VideoBitRate>  
+    <INF_Resolution>分辨率</INF_Resolution>  
+    <INF_xyRatio>长宽比</INF_xyRatio>  
+    <INF_FrameRate>帧率</INF_FrameRate>  
+    <INF_AudioStream>音频流</INF_AudioStream>  
+    <INF_AudioLanguage>音频语言</INF_AudioLanguage>  
+    <INF_AudioFourcc>音频编码</INF_AudioFourcc>  
+    <INF_AudioBitRate>音频码率</INF_AudioBitRate>  
+    <INF_Channel>音频通道</INF_Channel>  
+    <INF_SampleRate>音频采样率</INF_SampleRate>  
+    <INF_subtile>字幕</INF_subtile>  
+    <INF_SubTileLanguage>字幕语言</INF_SubTileLanguage>  
+    <INF_NoShowAgain>不再询问我</INF_NoShowAgain>  
+    <INF_Information>信息</INF_Information>  
+    <INF_Question>问题</INF_Question>  
+    <INF_Warning>警告</INF_Warning>  
+    <INF_Error>错误</INF_Error>  
+    <INF_Yes>是</INF_Yes>  
+    <INF_No>否</INF_No>  
+    <INF_ASKCancel>你确定要取消吗？</INF_ASKCancel>  
+    <INF_AddTaskDownloadTask>任务成功添加到下载队列！</INF_AddTaskDownloadTask>  
+    <INF_DownloadComplete>{0} 下载完成！</INF_DownloadComplete>
+    <INF_InvalidMediaFile>{0} 是无效的媒体文件！</INF_InvalidMediaFile>
+    <INF_TaskExecuteInfo>{0} / {1} 秒</INF_TaskExecuteInfo>
+    <INF_DoNothing>什么都不做</INF_DoNothing>  
+    <INF_Shutdown>关机</INF_Shutdown>  
+    <INF_Sleep>睡眠</INF_Sleep>  
+    <INF_QuitVideoConverterPro>退出程序</INF_QuitVideoConverterPro>
+    <INF_TaskScheduler>计划任务</INF_TaskScheduler>    
+    <INF_Save>保存</INF_Save>  
+    <INF_Create>创建</INF_Create>  
+    <INF_Custom>自定义</INF_Custom>  
+    <INF_SaveChange>要保存更改吗？</INF_SaveChange>  
+    <INF_InvalidImage>无效的文件。</INF_InvalidImage>  
+    <INF_Play>播放</INF_Play>  
+    <INF_UnFullScreen>退出全屏</INF_UnFullScreen>  
+    <INF_FullScreen>全屏</INF_FullScreen>  
+    <INF_UnMute>音量</INF_UnMute>  
+    <INF_Mute>静音</INF_Mute>  
+    <INF_RepeatMode_Off>立即播放</INF_RepeatMode_Off>  
+    <INF_RepeatMode_PlayAll>播放全部</INF_RepeatMode_PlayAll>  
+    <INF_RepeatMode_One>重复播放一个</INF_RepeatMode_One>  
+    <INF_RepeatMode_All>重复播放全部</INF_RepeatMode_All>  
+    <INF_RepeatMode_Random>拖曳</INF_RepeatMode_Random>  
+    <INF_Segment>分割</INF_Segment>  
+    <Inf_GIF_Maker_Title>GIF 制作器</Inf_GIF_Maker_Title>  
+    <Inf_GIF_Maker_Add>添加</Inf_GIF_Maker_Add>  
+    <Inf_GIF_Maker_VideoToGIF_Tab>视频转换 GIF</Inf_GIF_Maker_VideoToGIF_Tab>  
+    <Inf_GIF_Maker_PhotoToGIF_Tab>图片转换 GIF</Inf_GIF_Maker_PhotoToGIF_Tab>  
+    <Inf_GIF_Maker_Create_GIF>创建 GIF</Inf_GIF_Maker_Create_GIF>  
+    <Inf_GIF_Maker_Loading_Progress_tips>加载中 {0}%...</Inf_GIF_Maker_Loading_Progress_tips>  
+    <INF_PhotoFiles>图片文件</INF_PhotoFiles>  
+    <INF_VideoFiles>视频文件</INF_VideoFiles>  
+    <Inf_GIF_Maker_Create_GIF_Progress_tips>制作 GIF： {0} %</Inf_GIF_Maker_Create_GIF_Progress_tips>  
+    <Inf_GIF_Maker_PhotoToGIF_Empty>添加 JPG，PNG，JPEG，BMP 文件开始制作 GIF。</Inf_GIF_Maker_PhotoToGIF_Empty>  
+    <Inf_GIF_Maker_OutputSize>输出格式：</Inf_GIF_Maker_OutputSize>  
+    <Inf_GIF_Maker_FrameRate>帧率：</Inf_GIF_Maker_FrameRate>  
+    <Inf_GIF_Maker_FrameRate_fps>fps</Inf_GIF_Maker_FrameRate_fps>  
+    <Inf_GIF_Maker_SaveTo>保存到：</Inf_GIF_Maker_SaveTo>  
+    <INF_RemoveAll>移除全部</INF_RemoveAll>  
+    <INF_Remove>移除</INF_Remove>  
+    <Inf_GIF_Maker_VideoToGIF_Empty>添加视频开始制作GIF。</Inf_GIF_Maker_VideoToGIF_Empty>  
+    <Inf_GIF_Maker_VideoToGIF_StartTime>开始时间：</Inf_GIF_Maker_VideoToGIF_StartTime>  
+    <Inf_GIF_Maker_VideoToGIF_EndTime>结束时间：</Inf_GIF_Maker_VideoToGIF_EndTime>  
+    <INF_Pause>暂停</INF_Pause>  
+    <INF_CancelEditMetadata>要保存更改吗？</INF_CancelEditMetadata>  
+    <INF_SelectVideoFileToEdit>请选择一个 MP4/MOV 文件来修复或编辑视频元数据信息。</INF_SelectVideoFileToEdit>  
+    <INF_SaveMediaInfoFailed>视频元数据信息保存失败。</INF_SaveMediaInfoFailed>  
+    <INF_CloseAppAsk>一些任务正在执行中，您确定要退出程序吗？</INF_CloseAppAsk>  
+    <INF_CurrentExportFile>导出中 {0}</INF_CurrentExportFile>  
+    <INF_CancelExport>您确定要取消导出吗？</INF_CancelExport>
+    <INF_DeviceMediaListCount>{0} 个项目</INF_DeviceMediaListCount>  
+    <INF_DB>您的设备无法被 Video Converter Ultimate 读取，请将日志文件反馈给我们。</INF_DB>  
+    <INF_CDB>{0}.出现问题。使用iTunes同步任何播放列表，然后继续。</INF_CDB>  
+    <INF_CDiskNoSpace>没有足够的空间用于从设备加载数据。 清理本地磁盘 {0} 然后重试。</INF_CDiskNoSpace>  
+    <INF_IsTransfring>您正在将文件传输到 {0}，你要停止转移并切换到 {1} 吗？</INF_IsTransfring>  
+    <INF_SelectedMediaListCount>已选 {1} 个项目中的 {0}</INF_SelectedMediaListCount>  
+    <INF_DeviceConnecting1>连接您的 {0}</INF_DeviceConnecting1>  
+    <INF_NotPhoneDeviceConfirm>此安卓设备不是我的，不要再连接。</INF_NotPhoneDeviceConfirm>  
+    <INF_NotThisDevice>忽略此设备</INF_NotThisDevice>  
+    <INF_Waitting>等待</INF_Waitting>  
+    <DriverInstallStep.SearchDriver>搜索 {0} 驱动程序...</DriverInstallStep.SearchDriver>  
+    <DriverInstallStep.DownloadDriver>下载 {0} 驱动程序...</DriverInstallStep.DownloadDriver>  
+    <DriverInstallStep.InstallDriver>安装 {0} 驱动程序...</DriverInstallStep.InstallDriver>  
+    <DriverInstallStep.Decompress>解压缩驱动程序文件...</DriverInstallStep.Decompress>  
+    <DriverInstallStep.InstallDaemon>在您的设备上安装安卓驱动程序...</DriverInstallStep.InstallDaemon>  
+    <DriverInstallStep.InitializeDevice>初始化设备...</DriverInstallStep.InitializeDevice>  
+    <DriverInstallStep.Replug>需要重新插上</DriverInstallStep.Replug>  
+    <INF_PhoneTransfer_Connecting_Hint>连接中...</INF_PhoneTransfer_Connecting_Hint>  
+    <INF_UpdateDaemonStep/>  
+    <INF_IsAllowUnMarketInstal>要直接从本地计算机安装应用程序，请通过“设置”&gt;“应用程序”&gt;“未知来源” 来启用安装“未知来源”的应用。</INF_IsAllowUnMarketInstal>  
+    <INF_WaitTransferItems>{0} 个项目正在等待转移到您的设备。</INF_WaitTransferItems>  
+    <INF_ImportFormDeviceTitle>使用USB数据线连接设备</INF_ImportFormDeviceTitle>  
+    <INF_ImportFormDeviceTitle>连接后，您可以直接从设备导入文件。</INF_ImportFormDeviceTitle>  
+    <INF_ImportFormUSBTitle>用USB数据线连接摄像机</INF_ImportFormUSBTitle>  
+    <INF_ImportFormUSBTitle>连接后，您可以直接从摄像机导入文件。</INF_ImportFormUSBTitle>  
+    <INF_WaitingConvert>等待转换中...</INF_WaitingConvert>  
+    <INF_Converting>转换中...</INF_Converting>  
+    <INF_WaitingTransfer>等待传输中...</INF_WaitingTransfer>  
+    <INF_Transfering>传输...</INF_Transfering>  
+    <INF_TransferSuccessed>传输成功</INF_TransferSuccessed>  
+    <INF_TransferFailed>传输失败</INF_TransferFailed>  
+    <INF_SpaceNotEnough>没有足够的空间。</INF_SpaceNotEnough>  
+    <INF_SourceFileNotExists>源文件不存在。</INF_SourceFileNotExists>  
+    <INF_FileNotExists>文件不存在。</INF_FileNotExists>  
+    <INF_TransferItemTotalCount>总共: {0} 个项目</INF_TransferItemTotalCount>  
+    <INF_RemoveItemsInfo>您确定要删除所选项目吗？</INF_RemoveItemsInfo>  
+    <INF_Delete>删除</INF_Delete>  
+    <INF_Cancel>取消</INF_Cancel>  
+    <INF_TransferItemSelectCount>{0} ，共 {1} 个项目，总大小 {2}</INF_TransferItemSelectCount>  
+    <INF_NotEnoughDiskSpace>没有足够的空间。 请整理您的磁盘空间或 &lt;a&gt;更改其他保存文件夹。&lt;/a&gt;</INF_NotEnoughDiskSpace>  
+    <INF_Analyzing>分析中...</INF_Analyzing>  
+    <INF_Analyzefailed>分析失败:</INF_Analyzefailed>  
+    <INF_TotalTasks>总共: {0} 个任务</INF_TotalTasks>  
+    <INF_WaittingForConvert>等待转换中...</INF_WaittingForConvert>  
+    <INF_ConvertSuccess>转换成功！</INF_ConvertSuccess>  
+    <INF_Search>查找</INF_Search>  
+    <INF_ItemsInfoContainSize>{0} 个项目，{1}</INF_ItemsInfoContainSize>  
+    <INF_Downloading>{0}/{1}, {2}/S, 剩余 {3} ...</INF_Downloading>
+    <INF_Retry>重试</INF_Retry>  
+    <INF_DownloadSuccess>下载成功</INF_DownloadSuccess>  
+    <INF_DownloadFailPlayRetry>无法下载文件，请在浏览器上播放视频，然后重试。</INF_DownloadFailPlayRetry>  
+    <INF_DownloadFailRecord>无法下载文件，请选择录制。</INF_DownloadFailRecord>  
+    <INF_WaitForAnalyze>等待分析...</INF_WaitForAnalyze>  
+    <INF_WaitForDownloading>等待下载...</INF_WaitForDownloading>  
+    <INF_Analyzing>分析中...</INF_Analyzing>  
+    <INF_Meger>合并中...</INF_Meger>  
+    <INF_Hours>小时</INF_Hours>  
+    <INF_Minutes>分钟</INF_Minutes>  
+    <INF_Seconds>秒</INF_Seconds>  
+    <INF_DownloadingEx>下载 {0} 任务结束: {1} 个任务，失败: {2} 个任务</INF_DownloadingEx>  
+    <INF_DownloadingExEx>下载 {0} 任务结束: {1} 个任务</INF_DownloadingExEx>  
+    <INF_OneClickConvertToEx>下载完成后进行转换</INF_OneClickConvertToEx>  
+    <INF_OneClickConvertTo>下载然后转换为 {0}</INF_OneClickConvertTo>  
+    <INF_DeleteOriginalFile>同时删除原始文件</INF_DeleteOriginalFile>  
+    <INF_DeleteDownloadingTaskInfo>您确定要从下载队列中删除任务吗？</INF_DeleteDownloadingTaskInfo>  
+    <INF_DeleteItemsInfo>您确定要从正在下载队列中删除任务吗？</INF_DeleteItemsInfo>  
+    <INF_StartRecordCompentFailed>无法启动录音组件。</INF_StartRecordCompentFailed>  
+    <INF_TaskIsRunning>一些任务正在运行中，你想继续录制吗？</INF_TaskIsRunning>  
+    <INF_NoDisc>没有光盘，或者无法识别光盘。</INF_NoDisc>  
+    <INF_DiscIsCD>你的光盘是CD。请插入一张空白或可写入的DVD光盘以继续。</INF_DiscIsCD>  
+    <INF_DiscIsDVD>您无法在蓝光DVD刻录模式下插入正常的DVD光盘。</INF_DiscIsDVD>  
+    <INF_DiscIsBD>您无法在正常的DVD刻录模式下插入蓝光光盘。</INF_DiscIsBD>  
+    <INF_DiscNoEnoughSpace>碟片空间不足</INF_DiscNoEnoughSpace>  
+    <INF_DiscNotSupported>不支持的光盘类型。</INF_DiscNotSupported>  
+    <INF_DiscHasData>你的光盘不是空白的。你确定要擦拭内容并继续刻录吗？</INF_DiscHasData>  
+    <INF_CreateISOOK>创建ISO文件已完成。</INF_CreateISOOK>  
+    <INF_CreateDVDFolderOK>创建DVD文件夹已完成。</INF_CreateDVDFolderOK>  
+    <INF_BurnDVDOK>刻录视频到DVD光盘已完成。</INF_BurnDVDOK>  
+    <INF_CreatingSlice>创建片段...</INF_CreatingSlice>  
+    <INF_CreateDVDFolder>创建 DVD 文件夹...</INF_CreateDVDFolder>  
+    <INF_CreateISO>创建 ISO 文件...</INF_CreateISO>  
+    <INF_BurningDVD>刻录 DVD ...</INF_BurningDVD>  
+    <INF_BurnAppNotFound>找不到DVDMaker.exe。</INF_BurnAppNotFound>  
+    <INF_FolderisReadonly>文件夹是只读的。</INF_FolderisReadonly>  
+    <INF_FileNotExit>源文件不存在。</INF_FileNotExit>  
+    <INF_BurnCountError>视频的最大数量不允许超过99个视频。</INF_BurnCountError>  
+    <INF_DiscNotEnough>光盘中没有足够的空间。请调整质量设置或使用其他空白光盘以继续。</INF_DiscNotEnough>  
+    <INF_CancelBurn>您确定要取消刻录吗？</INF_CancelBurn>  
+    <INF_Burn>刻录</INF_Burn>  
+    <INF_CreateFolder_Error>创建文件夹错误。</INF_CreateFolder_Error>  
+    <INF_DiscNotEnough2>所选输出路径中没有足够的空间。</INF_DiscNotEnough2>  
+    <INF_DiscNotEnough3>临时刻录目录中没有足够的空间。</INF_DiscNotEnough3>  
+    <INF_BurnFail>刻录 DVD 因未知原因失败。</INF_BurnFail>  
+    <INF_CheckDiscFail>检查光盘失败。</INF_CheckDiscFail>  
+    <INF_CreateISOFail>创建 ISO 文件失败。</INF_CreateISOFail>  
+    <INF_InputDVDLabel>请填写DVD标签。</INF_InputDVDLabel>  
+    <INF_NoMenu>无菜单</INF_NoMenu>  
+    <INF_ALLTemplates>所有模板</INF_ALLTemplates>  
+    <INF_InvalidPicture>无效的图片文件。</INF_InvalidPicture>  
+    <INF_InvalidMusic>无效的音乐文件。</INF_InvalidMusic>  
+    <INF_AddbkImage>添加背景图片</INF_AddbkImage>  
+    <INF_AddbkMusic>添加背景音乐</INF_AddbkMusic>  
+    <INF_SubtitleNone>无</INF_SubtitleNone>  
+    <INF_RestartApplication>请重新启动应用程序以应用所选语言。</INF_RestartApplication>  
+    <INF_MediaServerMiss>MediaServer.exe不存在。</INF_MediaServerMiss>  
+    <INF_ConvertVRFail>转换失败。</INF_ConvertVRFail>  
+    <INF_VRCancel>你确定要取消转换吗？</INF_VRCancel>  
+    <INF_MP4Files>mp4 文件|*.mp4</INF_MP4Files>  
+    <INF_ConvertVRProgress>转换 VR 视频:</INF_ConvertVRProgress>  
+    <INF_ConvertVRSuccess>转换成功。</INF_ConvertVRSuccess>  
+    <!--试用限制-->  
+    <INF_ConvertVideoLimit>将任何视频/ DVD 转换为超过1000种高质量的格式。</INF_ConvertVideoLimit>  
+    <INF_FastConversionLimit>任何视频/ DVD 批量转换成不同的格式。</INF_FastConversionLimit>  
+    <INF_SpeedConversionLimit>支持高速转换</INF_SpeedConversionLimit>  
+    <INF_DownloadVideoLimit>从1000多个视频网站下载视频。</INF_DownloadVideoLimit>  
+    <INF_RecordLimit>从任何网站上录制视频。</INF_RecordLimit>  
+	<INF_BurnVideoLimit>刻录你的珍贵视频为高品质的 蓝光DVD或者DVD。</INF_BurnVideoLimit>  
+    <INF_CustomizeDVDLimit>使用各种 DVD 模板自定义 DVD 菜单。</INF_CustomizeDVDLimit>  
+    <INF_TransfertoDeviceLimit>将视频传输到 Android/iOS 设备。</INF_TransfertoDeviceLimit>  
+    <INF_AutoFixMetadataLimit>自动修复和编辑视频元数据信息。</INF_AutoFixMetadataLimit>  
+    <INF_ConvertGifLimit>将视频或照片转换为GIF</INF_ConvertGifLimit>  
+    <INF_ConvertVideoTiralTitle>使用试用版本，您只能转换原始视频的1/3。升级到完整版即可去除所有的限制。</INF_ConvertVideoTiralTitle>  
+    <INF_FastConversionTiralTitle>高速转换仅适用于完整版本。升级到完整版即可去除所有的限制。</INF_FastConversionTiralTitle>  
+    <INF_ConversionBatchTiralTitle>您无法使用此试用版批量转换视频。升级到完整版即可去除所有的限制。</INF_ConversionBatchTiralTitle>  
+    <INF_DownloadVideoTiralTitle>您只能使用试用版下载 {0} 个文件。升级到完整版即可去除所有的限制。</INF_DownloadVideoTiralTitle>  
+    <INF_RecordTiralTitle>您只能使用试用版录制1分钟。升级到完整版即可消除所有的限制。</INF_RecordTiralTitle>  
+    <INF_BurnDVDTiralTitle>使用试用版本，您无法将视频刻录到DVD光盘。升级到完整版即可去除所有的限制。</INF_BurnDVDTiralTitle>  
+    <INF_DVDTemplatesTiralTitle>使用试用版本，您无法将视频刻录到DVD光盘。升级到完整版即可去除所有的限制。</INF_DVDTemplatesTiralTitle>  
+    <INF_TransferVideoTiralTitle>使用试用版本，您只能将 {0} 个文件传输到设备。升级到完整版即可去除所有的限制。</INF_TransferVideoTiralTitle>  
+    <INF_AutoFixMetadataTiralTitle>使用试用版本，您只能修正或修改 {0} 个视频的元数据。 升级到完整版即可去除所有的限制。</INF_AutoFixMetadataTiralTitle>  
+    <INF_ConvertToGifTiralTitle>使用试用版本，您只能将视频或照片转换为 {0} 个GIF。升级到完整版即可去除所有的限制。</INF_ConvertToGifTiralTitle> 
+    
+    <INF_ConvertVideoPastTitle>使用试用版本，您只能转换原始视频的1/3。升级到完整版即可消除所有的限制。</INF_ConvertVideoPastTitle>  
+    <INF_FastConversionPastTitle>高速转换仅适用于完整版本。升级到完整版即可去除所有的限制。</INF_FastConversionPastTitle>  
+    <INF_ConversionBatchPastTitle>您无法使用此试用版批量转换视频。升级到完整版即可去除所有的限制。</INF_ConversionBatchPastTitle>  
+    <INF_DownloadVideoPastTitle>使用试用版本，您只能下载 {0} 个文件。升级到完整版即可去除所有限制。</INF_DownloadVideoPastTitle>  
+    <INF_RecordPastTitle>您只能使用试用版录制1分钟。升级到完整版即可消除所有的限制。</INF_RecordPastTitle>  
+    <INF_BurnDVDPastTitle>使用试用版本，您无法将视频刻录到DVD光盘。升级到完整版即可去除所有的限制。</INF_BurnDVDPastTitle>  
+    <INF_DVDTemplatesPastTitle>使用试用版本，您无法将视频刻录到DVD光盘。升级到完整版即可去除所有的限制。</INF_DVDTemplatesPastTitle>  
+    <INF_TransferVideoPastTitle>使用试用版本，您只能将 {0} 个文件传输到设备。升级到完整版即可去除所有的限制。</INF_TransferVideoPastTitle>  
+    <INF_AutoFixMetadataPastTitle>使用试用版本，您只能修正或修改 {0} 个视频的元数据。升级到完整版即可去除所有的限制。</INF_AutoFixMetadataPastTitle>  
+    <INF_ConvertToGifPastTitle>使用试用版本，您只能将视频或照片转换为 {0} 个GIF。升级到完整版即可去除所有的限制。</INF_ConvertToGifPastTitle> 
+    
+	
+    <!--后面补充的--> 
+    <INF_EncodeInfoIDUsing>所选格式由于正在使用而无法被删除。</INF_EncodeInfoIDUsing>
+    <INF_FixVideoMetadata_Title>修复媒体元数据</INF_FixVideoMetadata_Title>
+    <INF_FixVideoMetadata_Desc>自动修复和编辑媒体元数据</INF_FixVideoMetadata_Desc>
+    <INF_VRConverter_Title>VR 转换器</INF_VRConverter_Title>
+    <INF_VRConverter_Desc>将视频转换为VR，以便在VR设备上查看</INF_VRConverter_Desc>
+    <INF_StreamTV_Title>投射到电视</INF_StreamTV_Title>
+    <INF_StreamTV_Desc>将视频投射到电视上进行播放</INF_StreamTV_Desc>
+    <INF_ScreenRecorder_Title>屏幕录像机</INF_ScreenRecorder_Title>
+    <INF_ScreenRecorder_Desc>记录所有桌面活动并同时录制音频</INF_ScreenRecorder_Desc>
+    <INF_GigMaker_Title>GIF 制作器</INF_GigMaker_Title>
+    <INF_GigMaker_Desc>从视频或图片制作GIF</INF_GigMaker_Desc>
+    
+    <!-- record begin -->
+    <INF_Recording>录制中</INF_Recording>
+    <INF_Prepare>准备录制</INF_Prepare>
+    <INF_PrepareRecord>准备录制</INF_PrepareRecord>
+    <INF_StopRecord>点击 %s 结束录制</INF_StopRecord>
+    <INF_SelectDirectory>请选择目录</INF_SelectDirectory>
+    <INF_FolderUnExists>请确保您选择了有效的文件夹。</INF_FolderUnExists>
+    <INF_FolderReadOnly>无法创建输出目录。请检查您是否有权限在此路径上写入文件，或选择其他路径来创建目录。</INF_FolderReadOnly>
+    <INF_NoMicDevice>没有麦克风设备</INF_NoMicDevice>
+    <INF_NoSpkDevice>无扬声器</INF_NoSpkDevice>
+    <INF_LaunchGame>请启动游戏，然后按快捷键“%s”开始录制游戏。</INF_LaunchGame>
+    <INF_NoSpace>糟糕！ 由于磁盘空间不足，屏幕录制已停止。</INF_NoSpace>
+    <INF_NoGame>没有运行游戏或游戏不支持，请启动支持的游戏。</INF_NoGame>
+    <INF_AppName>Wondershare</INF_AppName>
+    <INF_BtnOK>确定</INF_BtnOK>
+    <INF_BtnYes>是</INF_BtnYes>
+    <INF_BtnNo>否</INF_BtnNo>
+    <INF_BtnCancel>取消</INF_BtnCancel>
+    <INF_BtnRetry>重试</INF_BtnRetry>
+    <!-- record end -->
+	
+	<!-- 6月22日新翻译 -->
+	<INF_MediaFilter>所有支持的格式|*.wtv; *.ogv; *.mxf; *.vro; *.webm; *.divx; *.avi; *.mp4; *.mpg; *.mka; *.mpeg; *.vob; *.3gp; *.3g2; *.wmv; *.asf; *.rm; *.rmvb; *.dat; *.mov; *.flv; *.f4v; *.dvr-ms; *.mp3; *.wav; *.m4v; *.mkv; *.mod; *.tod; *.m4a; *.m4b; *.m4p; *.m4r; *.wma; *.mts; *.m2ts; *.m2t;*.tp; *.trp; *.ts; *.aac; *.ac3; *.ap3; *.ogg; *.aif; *.aiff; *.mpa; *.flac; *.au; *.cue; *.dv; *.nsv; *.ra; *.ram; *.h.264; *.aa; *.aax; *.amr; *.tivo; *.mp2; *.ape;*.caf;|Apple Video files(*.m4v)|*.m4v|Apple Music files (*.m4a; *.m4b; *.m4p; *.m4r)|*.m4a; *.m4b; *.m4p; *.m4r|Audible Audio(*.aa)|*.aa|Audible Enhanced Format(*.aax)|*.aax|Adaptive Multi-Rate file(*.amr)|*.amr|MOD File(*.mod)|*.mod|TOD File(*.tod)|*.tod|High-definition files (*.mts; *.ts; *.m2ts; *.m2t;*.tp; *.trp)|*.mts; *.ts; *.m2ts; *.m2t;*.tp; *.trp|AVI Video files (*.avi)|*.avi|MPEG4 files (*.mp4; *.m4v)|*.mp4;*.m4v|MPEG files (*.mpg; *.mpeg)|*.mpg; *.mpeg|3GP files (*.3gp; *.3g2)|*.3gp; *.3g2|Windows Media Video (*.wmv; *.asf)|*.wmv; *.asf|Real Media files (*.rm, *.rmvb)|*.rm; *.rmvb|Video CD files (*.dat)|*.dat|Quick Time files (*.mov)|*.mov|Flash Video files (*.flv; *.f4v)|*.flv; *.f4v|MKV files(*.mkv)|*.mkv|Digital Video Files(*.dv)|*.dv|Microsoft Digital Video Recorder(*.dvr-ms)|*.dvr-ms|Raw h.264 Video Files(*.h.264)|*.h.264|Nullsoft Stream Video(*.nsv)|*.nsv|Unprotected VOB File(*.vob)|*.vob|MPEG Audio Files(*.mp3; *.m4a; *.mp2; *.mpa)|*.mp3; *.m4a; *.mp2; *.mpa|Windows Media Audio File(*.wma)|*.wma|Advanced Audio Coding File(*.aac)|*.aac|Audio Code 3 File(*.ac3)|*.ac3|Matroska Audio File(*.mka)|*.mka|OGG Vorbis Audio File(*.ogg)|*.ogg|Audio Interleave File Formats(*.aif; *.aiff)|*.aif; *.aiff|Real Audio Files(*.ra;*.ram)|*.ra;*.ram|Tivo File(*.Tivo)|*.Tivo|Lossless Audio Files(*.wav; *.ape; *.flac)|*.wav; *.ape; *.flac|WEBM Files(*.webm)|*.webm|OGV Files(*.ogv)|*.ogv|MXF Files(*.mxf)|*.mxf|VRO Files(*.vro)|*.vro|WTV Files(*.wtv)|*.wtv|CAF Files(*.caf)|*.caf|OPUS files (*.opus)|*.opus|所有文件 (*.*)|*.*</INF_MediaFilter>
+	<INF_DragMediaFilter>所有支持的格式|*.wtv; *.ogv; *.mxf; *.vro; *.webm; *.divx; *.avi; *.mp4; *.mpg; *.mka; *.mpeg; *.vob; *.3gp; *.3g2; *.wmv; *.asf; *.rm; *.rmvb; *.dat; *.mov; *.flv; *.f4v; *.dvr-ms; *.mp3; *.wav; *.m4v; *.mkv; *.mod; *.tod; *.m4a; *.m4b; *.m4p; *.m4r; *.wma; *.mts; *.m2ts; *.m2t;*.tp; *.trp; *.ts; *.aac; *.ac3; *.ap3; *.ogg; *.aif; *.aiff; *.mpa; *.flac; *.au; *.cue; *.dv; *.nsv; *.ra; *.ram; *.h.264; *.aa; *.aax; *.amr; *.tivo; *.mp2; *.ape;*.caf;*.ifo;*.iso;|Apple Video files(*.m4v)|*.m4v|Apple Music files (*.m4a; *.m4b; *.m4p; *.m4r)|*.m4a; *.m4b; *.m4p; *.m4r|Audible Audio(*.aa)|*.aa|Audible Enhanced Format(*.aax)|*.aax|Adaptive Multi-Rate file(*.amr)|*.amr|MOD File(*.mod)|*.mod|TOD File(*.tod)|*.tod|High-definition files (*.mts; *.ts; *.m2ts; *.m2t;*.tp; *.trp)|*.mts; *.ts; *.m2ts; *.m2t;*.tp; *.trp|AVI Video files (*.avi)|*.avi|MPEG4 files (*.mp4; *.m4v)|*.mp4;*.m4v|MPEG files (*.mpg; *.mpeg)|*.mpg; *.mpeg|3GP files (*.3gp; *.3g2)|*.3gp; *.3g2|Windows Media Video (*.wmv; *.asf)|*.wmv; *.asf|Real Media files (*.rm, *.rmvb)|*.rm; *.rmvb|Video CD files (*.dat)|*.dat|Quick Time files (*.mov)|*.mov|Flash Video files (*.flv; *.f4v)|*.flv; *.f4v|MKV files(*.mkv)|*.mkv|Digital Video Files(*.dv)|*.dv|Microsoft Digital Video Recorder(*.dvr-ms)|*.dvr-ms|Raw h.264 Video Files(*.h.264)|*.h.264|Nullsoft Stream Video(*.nsv)|*.nsv|Unprotected VOB File(*.vob)|*.vob|MPEG Audio Files(*.mp3; *.m4a; *.mp2; *.mpa)|*.mp3; *.m4a; *.mp2; *.mpa|Windows Media Audio File(*.wma)|*.wma|Advanced Audio Coding File(*.aac)|*.aac|Audio Code 3 File(*.ac3)|*.ac3|Matroska Audio File(*.mka)|*.mka|OGG Vorbis Audio File(*.ogg)|*.ogg|Audio Interleave File Formats(*.aif; *.aiff)|*.aif; *.aiff|Real Audio Files(*.ra;*.ram)|*.ra;*.ram|Tivo File(*.Tivo)|*.Tivo|Lossless Audio Files(*.wav; *.ape; *.flac)|*.wav; *.ape; *.flac|WEBM Files(*.webm)|*.webm|OGV Files(*.ogv)|*.ogv|MXF Files(*.mxf)|*.mxf|VRO Files(*.vro)|*.vro|WTV Files(*.wtv)|*.wtv|CAF Files(*.caf)|*.caf|OPUS files (*.opus)|*.opus|所有文件 (*.*)|*.*</INF_DragMediaFilter>
+	<INF_TransferLoadMediaFilter>所有支持的格式|*.wtv; *.ogv; *.mxf; *.vro; *.webm; *.divx; *.avi; *.mp4; *.mpg; *.mka; *.mpeg; *.3gp; *.3g2; *.wmv; *.asf; *.rm; *.rmvb; *.dat; *.mov; *.flv; *.f4v; *.dvr-ms; *.mp3; *.wav; *.m4v; *.mkv; *.mod; *.tod; *.m4a; *.m4b; *.m4p; *.m4r; *.wma; *.mts; *.m2ts; *.m2t;*.tp; *.trp; *.ts; *.aac; *.ac3; *.ap3; *.ogg; *.aif; *.aiff; *.mpa; *.flac; *.au; *.cue; *.dv; *.nsv; *.ra; *.ram; *.h.264; *.aa; *.aax; *.amr; *.mp2; *.ape;*.caf;|Apple Video files(*.m4v)|*.m4v|Apple Music files (*.m4a; *.m4b; *.m4p; *.m4r)|*.m4a; *.m4b; *.m4p; *.m4r|Audible Audio(*.aa)|*.aa|Audible Enhanced Format(*.aax)|*.aax|Adaptive Multi-Rate file(*.amr)|*.amr|MOD File(*.mod)|*.mod|TOD File(*.tod)|*.tod|High-definition files (*.mts; *.ts; *.m2ts; *.m2t;*.tp; *.trp)|*.mts; *.ts; *.m2ts; *.m2t;*.tp; *.trp|AVI Video files (*.avi)|*.avi|MPEG4 files (*.mp4; *.m4v)|*.mp4;*.m4v|MPEG files (*.mpg; *.mpeg)|*.mpg; *.mpeg|3GP files (*.3gp; *.3g2)|*.3gp; *.3g2|Windows Media Video (*.wmv; *.asf)|*.wmv; *.asf|Real Media files (*.rm, *.rmvb)|*.rm; *.rmvb|Video CD files (*.dat)|*.dat|Quick Time files (*.mov)|*.mov|Flash Video files (*.flv; *.f4v)|*.flv; *.f4v|MKV files(*.mkv)|*.mkv|Digital Video Files(*.dv)|*.dv|Microsoft Digital Video Recorder(*.dvr-ms)|*.dvr-ms|Raw h.264 Video Files(*.h.264)|*.h.264|Nullsoft Stream Video(*.nsv)|*.nsv|MPEG Audio Files(*.mp3; *.m4a; *.mp2; *.mpa)|*.mp3; *.m4a; *.mp2; *.mpa|Windows Media Audio File(*.wma)|*.wma|Advanced Audio Coding File(*.aac)|*.aac|Audio Code 3 File(*.ac3)|*.ac3|Matroska Audio File(*.mka)|*.mka|OGG Vorbis Audio File(*.ogg)|*.ogg|Audio Interleave File Formats(*.aif; *.aiff)|*.aif; *.aiff|Real Audio Files(*.ra;*.ram)|*.ra;*.ram|Lossless Audio Files(*.wav; *.ape; *.flac)|*.wav; *.ape; *.flac|WEBM Files(*.webm)|*.webm|OGV Files(*.ogv)|*.ogv|MXF Files(*.mxf)|*.mxf|VRO Files(*.vro)|*.vro|WTV Files(*.wtv)|*.wtv|CAF Files(*.caf)|*.caf|所有文件 (*.*)|*.*</INF_TransferLoadMediaFilter>
+	<INF_VideoFilter_Burn>所有支持的格式|*.wtv; *.ogv; *.mxf; *.vro; *.webm; *.divx; *.avi; *.mp4; *.mpg; *.mpeg; *.vob; *.3gp; *.3g2; *.wmv; *.asf; *.rm; *.rmvb; *.dat; *.mov; *.flv; *.f4v; *.dvr-ms; *.m4v; *.mkv; *.mod; *.tod; *.mts; *.m2ts; *.m2t;*.tp; *.trp; *.ts; *.dv; *.nsv; *.h.264; *.tivo;|MOD File(*.mod)|*.mod|TOD File(*.tod)|*.tod|High-definition files (*.mts; *.ts; *.m2ts; *.m2t;*.tp; *.trp)|*.mts; *.ts; *.m2ts; *.m2t;*.tp; *.trp|AVI Video files (*.avi)|*.avi|MPEG4 files (*.mp4; *.m4v)|*.mp4;*.m4v|MPEG files (*.mpg; *.mpeg)|*.mpg; *.mpeg|3GP files (*.3gp; *.3g2)|*.3gp; *.3g2|Windows Media Video (*.wmv; *.asf)|*.wmv; *.asf|Real Media files (*.rm, *.rmvb)|*.rm; *.rmvb|Video CD files (*.dat)|*.dat|Quick Time files (*.mov)|*.mov|Flash Video files (*.flv; *.f4v)|*.flv; *.f4v|MKV files(*.mkv)|*.mkv|Digital Video Files(*.dv)|*.dv|Microsoft Digital Video Recorder(*.dvr-ms)|*.dvr-ms|Raw h.264 Video Files(*.h.264)|*.h.264|Nullsoft Stream Video(*.nsv)|*.nsv|Unprotected VOB File(*.vob)|*.vob|WEBM Files(*.webm)|*.webm|Tivo File(*.Tivo)|*.Tivo|OGV Files(*.ogv)|*.ogv|MXF Files(*.mxf)|*.mxf|VRO Files(*.vro)|*.vro|WTV Files(*.wtv)|*.wtv|所有文件 (*.*)|*.*</INF_VideoFilter_Burn>
+	<INF_VideoFilter_DRM>所有支持的格式|*.m4v; *.m4a; *.m4b; *.m4p; *.m4r; *.aa; *.aax; *.wmv; *.wma;</INF_VideoFilter_DRM>
+	<INF_AudioFilter>所有支持的音频格式|*.mp3; *.wav; *.m4a; *.mka; *.wma; *.aac; *.ac3; *.ape; *.ogg; *aiff|MP3 files (*.mp3)|*.mp3|WAV files (*.wav)|*.wav|WMA files (*.wma)|*.wma|M4A files (*.m4a)|*.m4a|MKA files (*.mka)|*.mka|AAC files (*.aac)|*.aac|AC3 files (*.ac3)|*.ac3|APE files (*.ape)|*.ape|OGG files (*.ogg)|*.ogg|Audio Interleave File Formats(*.aiff)|*.aiff|OPUS files (*.opus)|*.opus|所有文件 (*.*)|*.*</INF_AudioFilter>
+	<INF_ImageFilter>所有支持的图片格式|*.jpg;*.png;*.bmp;*.gif|Jpg Files(*.jpg)|*.jpg|Png Files(*.png)|*.png|Bmp Files(*.bmp)|*.bmp|Gif Files(*.gif)|*.gif|所有文件 (*.*)|*.*</INF_ImageFilter>
+	<INF_SubPicFilter>所有支持的字幕格式|*.srt;*.ass;*.ssa|srt subtitle files (*.srt)|*.srt|ass subtitle files (*.ass)|*.ass|ssa subtitle files (*.ssa)|*.ssa</INF_SubPicFilter>
+	<INF_TransferMediaFilter>所有支持的格式|*.mp4;*.3gp;*.mp3;*.aac;*.ogg;*.m4a;*.flac;*.wav;*.m4v;*.mpeg;*.mpg;*.avi;*.mov;*.asf;*.wmv;*.vob;*.mkv;*.flv;*3g2;*.m4b;*.m4r;*.aif;*.aiff;*.ape;*.flac;*.amr;*.wma;*.au;*.mka;*.mp2;*.ra;*.ram;*.ac3</INF_TransferMediaFilter>
+	<INF_WaterImageFilter>所有支持的图片格式|*.jpg;*.jpeg;*.png;*.bmp;*.gif;*.wmf;*.emf;*.ico;*.tiff;*.tif;*.jfif|Jpg Files(*.jpg;*.jfif;*.jpeg)|*.jpg;*.jfif;*.jpeg|Png Files(*.png)|*.png|Bmp Files(*.bmp)|*.bmp|Gif Files(*.gif)|*.gif|Metafiles(*.wmf)|*.wmf|Enhanced Metafiles(*.emf)|*.emf|Icons(*.ico)|*.ico|TIFF Images(*.tiff;*.tif)|*.tiff;*.tif</INF_WaterImageFilter>
+	<INF_IFOFilterStr>DVD IFO 文件 (*.IFO)|*.IFO</INF_IFOFilterStr>
+	<INF_ISOFilterStr>DVD ISO 文件(*.ISO)|*.ISO</INF_ISOFilterStr>
+	<INF_ProductShortName>Video Converter Ultimate</INF_ProductShortName>
+	<INF_ProductFullName>Wondershare Video Converter Ultimate</INF_ProductFullName>
+	<INF_ScreenCaptureAppName>Wondershare 屏幕录像机</INF_ScreenCaptureAppName>
+    <INF_Auto>自动</INF_Auto>
+    <INF_DVDDisclaimerRemind>使用我们的软件获得的内容只能用于个人。不能与您的家人分享，也不能重新分配。</INF_DVDDisclaimerRemind>  	
+    <INF_DRMHint>糟糕！这是受 DRM 保护的视频，无法转换或刻录。什么是 DRM ？ 点击确定了解更多详情！</INF_DRMHint>
+    <INF_None>无</INF_None>
+    <INF_Holiday>Holiday</INF_Holiday>
+    <INF_September>September</INF_September>
+    <INF_Snow2>Snow2</INF_Snow2>
+    <INF_Aibao>AiBao</INF_Aibao>
+    <INF_Sunkissed>SunKissed</INF_Sunkissed>
+    <INF_Willow>Willow</INF_Willow>
+    <INF_SimpleElegent>SimpleElegent</INF_SimpleElegent>
+    <INF_Retro>Retro</INF_Retro>
+    <INF_Glow>Glow</INF_Glow>
+    <INF_RainDrop>RainDrop</INF_RainDrop>
+    <INF_BW_Noise>BW_Noise</INF_BW_Noise>
+    <INF_FuzzyImg>Fuzzy</INF_FuzzyImg>
+    <INF_Aegean>Aegean</INF_Aegean>
+    <INF_Bubble>Bubble</INF_Bubble>
+    <INF_VignetteRadius>VignetteRadius</INF_VignetteRadius>
+    <INF_70s>70s</INF_70s>
+    <INF_SunSet>SunSet</INF_SunSet>
+    <INF_BlueSkies>Blue Skies</INF_BlueSkies>
+    <INF_DrmPreBurn>在刻录之前，我们将首先转换DRM文件。</INF_DrmPreBurn> 
+    <INF_NoMatchingFormatFound>找不到匹配的格式。</INF_NoMatchingFormatFound>
+    <INF_FullProductName>Wondershare Video Converter Ultimate</INF_FullProductName>
+    <INF_Reset>重置</INF_Reset>
+    <INF_BurningTips>刻录过程中不允许添加文件到刻录列表。请稍后再试。</INF_BurningTips>
+    <INF_HasFileNotExists>源文件不存在。</INF_HasFileNotExists>
+    <INF_Loading> 正在加载 {0}%</INF_Loading>
+    <INF_Source>源文件</INF_Source>
+    <INF_ISOFile>ISO 文件</INF_ISOFile>
+    <INF_DVDFolder>DVD 文件夹</INF_DVDFolder>
+	<INF_NoDownload>使用前请先下载DVD模板。</INF_NoDownload>
+    <INF_CaptureSuccess>此 {0} 已被保存。</INF_CaptureSuccess>
+	<INF_InvalidDVDFolder>无效的 DVD 文件夹</INF_InvalidDVDFolder>
+    <INF_Burning>刻录视频到光盘时不允许关闭该程序。请稍后再试。</INF_Burning>
+	<INF_BurnTimeOut>刻录过程超时，请稍后再试。</INF_BurnTimeOut>
+	<!--UpdateMainForm-->
+    <INF_UpdateDownloading>正在下载更新文件，请稍候...</INF_UpdateDownloading>
+    <INF_DownloadingPercent>(已下载 {0:s}, 总共 {1:s})</INF_DownloadingPercent>
+    <INF_DownloadUpdateFileFail>无法下载更新文件，请检查Internet连接是否正确。</INF_DownloadUpdateFileFail>
+    <INF_UpdateConnectServer>检测新版本...</INF_UpdateConnectServer>
+    <INF_LiveUpdateConfigInvalid>LiveUpdate.ini配置文件不正确。</INF_LiveUpdateConfigInvalid>
+    <INF_UpdateFaildToDownloadXML>更新失败。 请检查Internet连接是否正确。</INF_UpdateFaildToDownloadXML>
+    <INF_UpdateLastVersion>当前版本已是最新，没有新版本可用。</INF_UpdateLastVersion>
+    <INF_Areyousurecancel>您确定要取消吗？</INF_Areyousurecancel>
+    <INF_Unregistered>未注册</INF_Unregistered>
+    <INF_DownCompleted>下载完成。但程序仍在运行。点击“确定”按钮终止程序并安装新版本，点击“取消”按钮稍后进行安装。</INF_DownCompleted>
+    <INF_Multi_version>发现新版本。更新内容:</INF_Multi_version>
+    <INF_OneVersion>发现新版本。更新内容:</INF_OneVersion>
+  </Strings>  
+  <Forms>
+    <FormatProtectedForm Text="信息">
+	  <lblMessage1 Text="Wondershare Video Converter Ultimate 不支持这种类型的编码。" />
+	  <lblMessage2 Text="两种方法可以解决这个问题：" />
+	  <lblMessage3 Text="1.安装 VLC 播放器。" />
+	  <lblMessage4 Text="2.点击这里从 VLC 下载编解码器包。" />
+      <btnOK Text="确定" /> 
+	</FormatProtectedForm>  
+    <FeedBackForm Text="反馈">
+      <btnSend Text="提交" ToolTip="提交" />
+      <labEmail Text="Email:" ToolTip="Email" />
+      <labContent Text="内容:" ToolTip="内容" />
+      <labAsk1 Text="*" />
+      <labAsk2 Text="*" />
+      <chkLogSend Text="附加日志文件。" ToolTip="附加日志文件。" />
+      <chkScreenSend Text="附加屏幕截图:" ToolTip="附加屏幕截图" />
+      <lblHint Text="附件将被上传到支持中心进行调试，我们将尽快答复您。" />
+      <lblFeedBackInfo Text="我们很乐意听到您的意见！" />
+      <labMessageSend Text="消息发送中..." />
+      <btnOK Text="确定" />
+      <labSucceed Text="提交成功！" />
+      <btnExit Text="退出" />
+      <btnRetry Text="重试" />
+      <labFail Text="提交失败！" />
+    </FeedBackForm>  
+     <RegisterExForm Text="注册">
+      <btnRegister Text="注册" />
+      <btnTrial Text="免费试用" />
+      <btnBuy Text="现在购买" />
+      <lblEmail Text="许可邮箱:" />
+      <lblRegisterCode Text="注册码:" />
+      <lblEmailTip Text="Email格式不正确！" />
+      <lblHelp Text="注册帮助" />
+      <txtEmail PlaceHolderText="carrotchou@163.com" />
+      <txtCode PlaceHolderText="www.carrotchou.blog" />
+    </RegisterExForm>
+	<UpdateMainForm Text="检测新版本">
+      <btnClose1 Text="取消" />
+      <lblProgressMsg Text="检测新版本。" />
+      <btnClose Text="关闭" />
+      <btnBuy Text="购买" />
+      <btnSetUp Text="现在升级" />
+      <btnCancel Text="取消" />
+      <btnVersion Text="忽略升级" />
+    </UpdateMainForm>
+     <CSSHintForm Text="信息">
+      <lblMessage Text="糟糕！ 此 DVD 受 CSS 版权保护，无法被转换和刻录。什么是 CSS？ 点击确定了解详情。" />
+      <btnOK Text="确定" />
+	  <chbNotice Text="不再显示。" />
+    </CSSHintForm>    
+    <TaskControl>
+      <lblTitle Text="当任务结束时" />
+    </TaskControl>
+    <BurnPage> 
+      <btnAddFiles Text="添加文件" />  
+      <BtnLoadDVD Text="加载 DVD" />  
+      <lbBurnTo Text="刻录视频到:" />
+      <mnAddFiles Text="添加文件" />
+      <mnAddFolder Text="添加文件夹" />
+      <mnLoadFromDevice Text="从设备中添加" />
+      <mnLoadFromCamcorder Text="从摄像机添加" />
+      <lbDragHint Text="添加或拖拽文件到这里进行刻录" />
+      <mnPlay Text="播放" />
+      <mnRename Text="重命名" />
+      <mnAddToTransferList Text="添加到传输列表" />
+      <mnDelete Text="移除" />
+      <mnClear Text="移除全部" />
+      <mnClearInvalidFiles Text="清除无效文件" />
+      <mnInformation Text="媒体信息" />
+      <mnOpenFileLocation Text="打开文件所在位置" />
+      <btnAddFilesExEx Text="添加文件" />      
+      <cbxDVDType> 
+        <Items>DVD5 (4700MB)
+DVD9 (8500MB)
+BD25 (25G)
+BD50 (50G)
+</Items> 
+      </cbxDVDType>  
+      <btnBurn Text="刻录" />
+      <mnSort Text="排序方式" />	
+      <miByName Text="名称" />
+      <miByDate Text="日期" />
+      <miByLength Text="长度" />
+      <miBySize Text="大小" />
+      <miAscend Text="升序" />
+      <miDescend Text="降序" />
+    </BurnPage>
+    <BurnStatusControl>
+      <btnGotit_err Text="知道了" />  
+      <lbMsg_err Text="很抱歉，一些未知原因导致了刻录失败。" />
+      <lbTitlex Text="创建片段..." /> 
+      <btnBurnAgain Text="再次刻录" />  
+      <btnGotit Text="知道了" />  
+      <btnOpenFolder Text="打开文件夹" />
+      <lbFinish Text="视频刻录到 DVD 光盘已完成。" />  
+      <lbOpenForder Text="打开文件夹" /> 
+    </BurnStatusControl>  
+    <DVDParamsControl>
+      <lbDVDLabel Text="DVD 标签:" />  
+      <cbxQuality Text="标准"> 
+        <Items>高质量
+标准
+适应光盘
+</Items> 
+      </cbxQuality>  
+      <lbQuality Text="质量:" />  
+      <cbxAspect Text="16:9"> 
+        <Items>4:3
+16:9
+</Items> 
+      </cbxAspect>  
+      <lbAspect Text="长宽比:" />  
+      <cbxTVStandard> 
+        <Items>NTSC
+PAL
+</Items> 
+      </cbxTVStandard>  
+      <lbTVStandard Text="TV 标准:" />  
+      <cbxMenuType> 
+        <Items>无菜单
+自定义
+</Items> 
+      </cbxMenuType>  
+      <lbMenuType Text="菜单类型:" />  
+      <lbResolution Text="分辨率:" />  
+      <cbxResoluation> 
+        <Items>720P (1280*720)
+1080P (1920*1080)
+</Items> 
+      </cbxResoluation>
+      <lbFrameRate Text="帧率：" />  
+    </DVDParamsControl>
+    <MenuEditForm Text="DVD 模板">
+      <lbDownloadHint Text="使用前请先下载DVD模板。" />
+      <btnPlay Text="+" />  
+      <btnCancel Text="取消" />  
+      <btnOk Text="确定" /> 
+    </MenuEditForm>    
+    <FontControl> 
+      <btnDefault Text="默认" />  
+      <btnApplyToAll Text="应用到全部" /> 
+    </FontControl>
+    <FileInfoItem>  
+      <btnRename ToolTip="重命名" />  
+      <btnOpen ToolTip="打开文件所在位置" />  
+    </FileInfoItem>
+    <ConvertedItem> 
+      <btnTransfer Text="添加到传输" />
+      <mnAddToBurn Text="添加到刻录列表" />
+      <mnAddToTransfer Text="添加到传输列表" />  
+      <btnEditTitle ToolTip="重命名" />  
+      <btnOpenFolder ToolTip="打开文件所在位置" />   
+    </ConvertedItem>  
+    <ConvertItem> 
+      <lbFileName Text="lb文件名" />  
+      <btnConvert Text="转换" />  
+      <btnTrim ToolTip="截取" />  
+      <btnCrop ToolTip="裁剪" />  
+      <btnEffect ToolTip="特效" />
+    </ConvertItem>  
+    <ConvertPage>       
+      <btnConverting Text="转换中" />  
+      <btnConverted Text="已转换" />  
+      <btnAddFiles Text="添加文件" />  
+      <BtnLoadDVD Text="加载 DVD" />  
+      <lbFormatTo Text="转换全部文件为:" /> 
+      <mnPlayex Text="播放" />
+      <mnRenameEx Text="重命名" />
+      <mnDeleteEx Text="删除" />
+      <mnClearEx Text="删除全部" />
+      <mnClearInvalidFileEx Text="清除无效文件" />
+      <mnSort Text="排序方式" />
+	  <mnSortEx Text="排序方式" />
+      <mnAddToTransferListEx Text="添加到传输列表" />
+      <mnAddToBurnListEx Text="添加到刻录列表" />
+      <mnInformationEx Text="媒体信息" />
+      <mnOpenFileLocationEx Text="打开文件所在位置" />
+      <mnConvert Text="转换" />
+      <mnCance Text="取消" />
+      <mnPause Text="暂停" />
+      <mnResume Text="恢复" />
+      <mnDelete Text="移除" />
+      <mnClear Text="移除全部" />
+      <mnPlay Text="播放" />
+      <mnInformation Text="媒体信息" />
+      <mnOpenFileLocation Text="打开文件所在位置" />
+      <lbInfo Text="添加或拖拽文件到这里来转换" />  
+      <btnAddFile Text="添加文件" />
+      <mnAddFiles Text="添加文件" />
+      <mnAddFolder Text="添加文件夹" />
+      <mnLoadFromDevice Text="从设备中添加" />
+      <mnLoadFromCamcorder Text="从摄像机添加" />
+      <lbHighSpeed Text="高速转换" />  
+      <btnMerge ToolTip="您只能在“合并所有视频”模式中转换全部或取消所有任务" />  
+      <lbMerge Text="合并所有视频" />  
+      <btnConvertAll Text="转换全部" />  
+      <lblEmptyInfo Text="添加或拖拽文件到这里来转换" /> 
+      <btnAddFilesEx Text="添加文件" />
+      <miByName Text="名称" />
+      <miByDate Text="日期" />
+      <miByLength Text="长度" />
+      <miBySize Text="大小" />
+      <miAscend Text="升序" />
+      <miDescend Text="降序" />	
+    </ConvertPage> 
+    <DeviceMediaExportProgressForm Text="导出文件"> 
+      <lblTitle Text="操作进行中..." />  
+      <btnCancel Text="取消" />
+    </DeviceMediaExportProgressForm>  
+    <DeviceMediaLoadForm Text="从设备添加文件">
+      <cnMenuOpreation/>  
+      <tspRefresh Text="刷新" />
+      <lblNofileFound Text="找不到支持的视频文件。" />
+      <btnAddToConvertlist Text="添加到转换列表" />  
+      <hName Text="名称" />  
+      <hTimeLength Text="时长" />  
+      <hSize Text="大小" />  
+      <hFormat Text="格式" />  
+      <hYear Text="年" />  
+      <hDate Text="创建日期" />  
+      <hGenre Text="类型" />  
+      <lbLoadFailInfo Text="您的设备无法被 Video Converter Ultimate 读取，请将日志文件反馈给我们。" />  
+      <labLoading Text="已加载 {0}%" />  
+    </DeviceMediaLoadForm>  
+    <TurnOnHightSpeedForm Text="高速转换">
+      <lbGUPSpeed Text="启用 GPU 加速" />  
+      <lbHightSpeed Text="启用高速转换，享受高速转换速度。" />  
+      <lnkLabel Text="了解更多" />  
+      <btnOK Text="打开" />
+    </TurnOnHightSpeedForm>  
+    <AboutForm Text="关于">
+      <lblSupport Text="获取更多资源，欢迎访问:" />  
+      <lblVersion Text="Version: {0} Beta" />  
+      <linkHomepage Text="Wondershare HomePage" />  
+      <lblIntro Text="万兴科技，是以自主品牌、面向全球消费者提供市场领先的App应用工具的高科技企业，以“智慧家庭，幸福生活！”为使命，致力于为全球用户提供Windows、 Mac OS X、iOS、Android等诸多平台系统上的各种应用工具产品与服务。" />
+      <lblCopyright Text="Copyright © 2018 Wondershare. All rights reserved." /> 
+    </AboutForm>  
+    <DriveInstallForm Text="安装驱动"> 
+      <lbInfo Text="正在为并行进程检查驱动程序，请稍候..." /> 
+    </DriveInstallForm>  
+    <DvdLoadModeForm Text="DVD 加载模式"> 
+      <chkDontShowAgain Text="不再显示" />  
+      <btnOK Text="确定" />
+      <rbtnAllMovie Text="全部电影" />  
+      <rbtnMainMovie Text="主电影" /> 
+    </DvdLoadModeForm>  
+    <ImportFailedForm Text="导入失败">
+        <lblImportFailedTitle Text="导入以下文件失败。"/>
+        <btnOK Text="确定"/>
+        <lblCheckFormat Text="请检查文件格式是否被支持。"/>
+    </ImportFailedForm>
+    <ImportFileForm Text="添加文件">
+      <lblTitle Text="操作进行中..." />  
+      <btnCancel Text="取消" />  
+      <lbFontCatch Text="操作进行中..." />
+    </ImportFileForm>  
+    <InstalliTunesTipForm Text="信息">
+      <lblMessage Text="为了能成功转换DRM保护的文件，请先下载并安装iTunes。" />  
+      <lnkLabel Text="http://www.apple.com/itunes/download/" />  
+      <btnOk Text="确定" /> 
+    </InstalliTunesTipForm>  
+    <iTunesPlayModalNoticeForm Text="转换 DRM 文件"> 
+      <lkLabel Text="要转换受DRM保护的文件，请按照以下步骤操作:" />  
+      <htmllabel1 Text="2. 转换到 iTunes 的 &lt;b&gt;编辑 - 偏好设置 - 常规&lt;/b&gt; 然后勾选 &lt;b&gt;将电影窗口保留在所有其他窗口的顶部&lt;/b&gt;." />  
+      <htmlLabel2 Text="3. 播放影片，然后鼠标右键设置  &lt;b&gt;在独立的窗口中播放视频&lt;/b&gt;." />  
+      <lbInfo1 Text="1. 运行 iTunes." />
+      <lbNote Text="注意:转换时，请勿在iTunes正在播放的窗口上进行任何操作" />  
+      <ckbAskmeAgain Text="不再询问我" />  
+      <BtnOK Text="确定" /> 
+    </iTunesPlayModalNoticeForm>  
+    <MediaInfoForm Text="媒体信息">
+      <btnCopy Text="复制" />  
+      <btnOk Text="关闭" />  
+      <lblLoading Text="加载中..." />
+    </MediaInfoForm>  
+    <OptionForm Text="首选项">     
+      <lblDownloadLocation Text="保存已下载文件到:" />  
+      <btnChangeDownloaded Text="更改" />  
+      <btnResetDownloaded Text="重置" />  
+      <btnResetConverted Text="重置" />  
+      <btnChangeConverted Text="更改" />  
+      <lblConvertedLocation Text="保存已转换文件到:" />  
+      <btnResetBurn Text="重置" />  
+      <btnChangeBurn Text="更改" />  
+      <gLabel1 Text="保存 DVD文件夹/ISO 文件到:" />
+      <lblDownloadNumber Text="下载任务的最大数量：" />  
+      <lblMediaType Text="下载:" />  
+      <cbMediaType Text="视频"> 
+        <Items>视频
+音频
+</Items> 
+      </cbMediaType>  
+      <cbQuality Text="720P" />  
+      <lblQuality Text="质量:" />  
+      <lblSubtitles Text="字幕:" />  
+      <cbSubtitle Text="English"> 
+        <Items>None
+English
+Français
+Japanese
+Deutsch
+Italiano
+Español
+Português</Items> 
+      </cbSubtitle>  
+      <cbAutoDownloadPlaylist Text="自动下载字幕/隐藏式字幕" />  
+      <cbShowDownloadComplete Text="下载成功显示弹窗" />  
+      <cbAutoResumeTask Text="启动时自动恢复未完成的任务" />
+      <cbMergeSubtitle Text="将字幕/隐藏式字幕合并到输出视频" />      
+      <cbYouTubeMode Text="YouTube 一键下载模式:" />
+      <lbLoadDVD Text="加载 DVD 中的内容:" />  
+      <lbMaxConvertTasks Text="最大转换任务:" />  
+      <cbAddtoItunes Text="转换后自动将文件添加到 iTunes 库里" />  
+      <cbKeepChapter Text="保持章节标记" />  
+      <cbxLoadDVD> 
+        <Items>仅主电影
+全部电影
+</Items> 
+      </cbxLoadDVD>  
+      <cbEnableGPU Text="启用 GPU 加速" />
+      <lbLearnMore Text="了解更多..." />  
+      <cbCompatibilityMode Text="以兼容模式运行" />  
+      <lbDownloadKLite Text="请下载 K-Lite 编解码器包" />  
+      <btnResetWarnings Text="重置所有警告" />  
+      <lblResetWarnings Text="重置所有警告对话框:" />  
+      <cbUpdatePeriod Text="每周"> 
+        <Items>从不
+每天
+每周
+每月
+</Items> 
+      </cbUpdatePeriod>  
+      <lblUpdates Text="检查更新:" />  
+      <lblLanguage Text="语言:" />  
+      <cbPlayFinishAlert Text="任务完成后声音提醒" />  
+      <cbShowFinishPopup Text="任务完成后显示弹窗" />  
+      <btnReset Text="重置" />  
+      <btnOk Text="确定" />  
+      <btnCancel Text="取消" />  
+      <btnDownload Text="下载" />  
+      <btnLocation Text="位置" />  
+      <btnGeneral Text="常规" />  
+      <btnConvert Text="转换" /> 
+    </OptionForm>  
+    <ProgressForm Text="进度表"> 
+      <btnCancel Text="取消" /> 
+      <lblTitle Text="操作进行中..." />  
+    </ProgressForm>  
+    <TaskCompleteForm Text="信息">
+      <cbNoShow Text="不再显示" />  
+      <lblMessage Text="成功添加任务到下载队列！" /> 
+    </TaskCompleteForm>  
+    <TaskExecuteForm Text="信息">
+      <btnOk Text="确定" />  
+      <btnCancel Text="取消" /> 
+    </TaskExecuteForm>  
+    <TivoKeySetForm Text="访问密码"> 
+      <btnOk Text="确定" />  
+      <btnCancel Text="取消" /> 
+    </TivoKeySetForm>  
+    <TurboSpeedForm Text="高速下载"> 
+      <btnOk Text="打开" />  
+      <lblTurboMode Text="打开“高速下载”，尝试三倍下载速度！" />
+    </TurboSpeedForm>
+    <PasteUrlForm Text="粘贴网址"> 
+      <lblDesc Text="复制并粘贴网址:" />  
+      <lblHint Text="无效的链接，您需要拷贝类似于下面的链接: https://www.youtube.com/watch?v=RgKAFK5djSk" />  
+      <btnDownload Text="下载" /> 
+    </PasteUrlForm>
+    <SelectMediaForm Text="选择媒体格式"> 
+      <lblDuration Text="00:00:00" />  
+      <lblLanguage Text="语言:" />  
+      <lblVideo Text="下载视频" />  
+      <lblAudio Text="下载音频" />  
+      <lblSubtitle Text="下载字幕" />
+      <btnDownload Text="下载" />  
+      <cbSubtitle Text="原始字幕" />  
+      <cbSetDefault Text="设置我的选择为默认，并且不再提醒。" />
+      <lblStatus Text="分析中..." /> 
+      <lblNoEnoughSpace Text="没有足够的空间，请整理您的磁盘空间或 &lt;a&gt;更改其他保存文件夹&lt;/a&gt;." /> 
+    </SelectMediaForm>  
+    <SelectPlaylistForm Text="选择媒体格式"> 
+      <lblNoEnoughSpace Text="没有足够的空间，请整理您的磁盘空间或 &lt;a&gt;更改其他保存文件夹&lt;/a&gt;." />  
+      <cbBiterate Text="320Kpbs"> 
+        <Items>320Kbps
+256Kbps
+128Kbps
+</Items> 
+      </cbBiterate>  
+      <lblBitrate Text="质量:" />  
+      <cbMedia Text="视频"> 
+        <Items>视频
+音频
+</Items> 
+      </cbMedia>  
+      <lblSaveAs Text="另存为:" />  
+      <lblQuality Text="质量:" />  
+      <btnDownload Text="下载" />
+      <hiName Text="名称" />  
+      <hiDuration Text="时长" />  
+      <hiSize Text="大小" />  
+      <lblStatus Text="分析中..." />
+    </SelectPlaylistForm>  
+    <SelectWatchlistForm Text="下载"> 
+      <btnPlaylist Text="播放列表" />  
+      <btnCancel Text="取消" />  
+      <lblMessage Text="此视频是播放列表的一部分。您要仅下载此视频片段还是下载播放列表的全部视频？" />  
+      <btnClip Text="片段" /> 
+    </SelectWatchlistForm>  
+    <DownloadedItem>
+      <lblProcessDesc Text="等待" />  
+      <btnEditTitle ToolTip="重命名" />  
+      <btnOpenFolder ToolTip="打开文件所在位置" />  
+      <btnCancel Text="取消" />  
+      <btnAddTo Text="添加到传输" />  
+    </DownloadedItem>  
+    <DownloadedPage>
+      <mnuDownloaded/>  
+      <miOpenFilelocation2 Text="打开文件所在位置" />
+      <miMediaInfo2 Text="媒体信息" />
+      <miPlay2 Text="播放" />
+      <miRename2 Text="重命名" />
+      <miDelete2 Text="删除" />
+      <miDeleteAll2 Text="删除全部" />
+      <miClearInvail2 Text="清除无效文件" />
+      <miExpand2 Text="展开播放列表" />
+      <miClose2 Text="折叠播放列表" />
+      <miToConvert2 Text="添加到转换列表" />
+      <miToBurn2 Text="添加到刻录列表" />
+      <miToTransfer2 Text="添加到传输列表" />
+      <miCopyURL2 Text="复制链接" />
+      <miGoToSourcePage2 Text="转到原始网页" />
+      <miSort2 Text="排序方式" />
+      <lblEmptyInfo Text="添加或拖拽文件到这里来转换" />
+      <lblGuideDesc Text="复制链接然后点击“粘贴网址”按钮" />
+      <miByName Text="名称" />
+      <miByDate Text="日期" />
+      <miByLength Text="长度" />
+      <miBySize Text="大小" />
+      <miAscend Text="升序" />
+      <miDescend Text="降序" />  
+    </DownloadedPage>
+    <DownloadingPage> 
+      <mnuDownloading/>  
+      <miPause Text="暂停" />
+      <miResume Text="恢复" />
+      <miDelete2 Text="删除" />
+      <miDeleteAll2 Text="删除全部" />
+      <miExpand Text="展开播放列表" />
+      <miClose Text="折叠播放列表" />
+      <miLiftingPriority Text="优先下载" />
+      <miCopyURL Text="复制链接" />
+      <miGoToSourcePage Text="转到原始网页" />
+      <lblTurboMode Text="高速下载" />  
+      <btnStart Text="全部恢复" />  
+      <btnStop Text="全部暂停" />
+      <lblEmptyInfo Text="添加或拖拽文件到这里来转换" />  
+      <lblGuideDesc Text="复制链接然后点击“粘贴网址”按钮" /> 
+    </DownloadingPage>  
+    <DownloadPage> 
+      <btnDownload Text="下载中" />  
+      <btnFinished Text="已完成" />  
+      <btnPasteUrl Text="粘贴网址" />  
+      <btnRecord Text="录制视频" />
+      <miToMp3 Text="下载 MP3" /> 
+    </DownloadPage>
+    <FormatSelectForm Text="选择格式">
+      <btnRecently Text="最近" />  
+      <btnVideo Text="视频" />  
+      <btnAudio Text="音频" />  
+      <btnDevice Text="设备" />  
+      <BtnCreateCustom Text="创建自定义" />
+    </FormatSelectForm>  
+    <SettingForm Text="设置"> 
+      <lbVideoFourcc Text="编码" />  
+      <lbResolution Text="分辨率" />  
+      <lbFrame Text="帧率" />  
+      <lbBitRate Text="码率" />  
+      <gLabel1 Text="编码" />  
+      <lbChannel Text="通道" />  
+      <gLabel2 Text="码率" />  
+      <lbSampleRate Text="采样率" />  
+      <btnDefault Text="默认" />  
+      <btnOk Text="创建" />  
+      <BtnCancel Text="取消" />  
+      <lbFormatName Text="标题" />  
+      <btnHigheQ Text="高质量" />  
+      <gButton1 Text="自定义" />  
+      <gButton2 Text="小体积" />
+      <lbLevel Text="水平" />  
+      <lbProfile Text="轮廓" />
+      <lbVideo Text="视频" />  
+      <cbProfile> 
+        <Items>最低标准
+基础
+高标准
+</Items> 
+      </cbProfile> 
+      <lbQulity Text="质量" />
+      <lbAudio Text="音频" /> 
+    </SettingForm>  
+    <MainForm Text="Wondershare Video Converter Ultimate 汉化：慕若曦">
+      <btnConvert Text="转换" />  
+      <BtnDownload Text="下载" />  
+      <btnBurn Text="刻录" />  
+      <BtnTransfer Text="传输" />  
+      <BtnToolBox Text="工具" />  
+      <mainMenu/>  
+      <miOption Text="首选项" />
+      <miNewFeatureRequest Text="新功能需求" />
+      <miFAQ Text="常见问题" />
+      <miUserGuide Text="用户指南" />
+      <miFacebook Text="在Facebook上关注我们" />
+      <miReview Text="撰写评论" />
+      <miCheckUpdate Text="检查更新" />
+      <miAbout Text="关于" />
+      <miFeedback Text="反馈" />
+      <miSupportCenter Text="支持中心" />
+	  <Purchase1 Text="购买" />
+      <Active1 Text="注册" />
+    </MainForm>  
+    <FontEditControl> 
+      <btnDefault Text="默认" />  
+      <btnApply Text="确定" />
+    </FontEditControl>
+    <MediaEditForm Text="编辑">
+      <lblTotalTime Text="00:00:00/00:00:00" />  
+      <lbEffectView Text="输出预览" />  
+      <lbSrcView Text="原始预览" />
+      <btnCropReSet Text="重置"/>
+      <btnCrop Text="裁剪" />  
+      <btnEffect Text="特效" />  
+      <btnWaterMark Text="水印" />  
+      <btnSubtitle Text="标题" />  
+      <BtnAudio Text="音频" />
+      <BtnOk Text="确定" />  
+      <btnCancel Text="取消" />
+      <gLabel10 Text="方向:" />  
+      <lbSubtitleT Text="透明度:" />  
+      <lbSubTitlePV Text="50/100" />  
+      <lbSubtitleTV Text="50/100" />
+      <lbOutLineColor Text="轮廓颜色:" />  
+      <btnBotton Text="底部" />  
+      <gLabel2 Text="标题:" />  
+      <btnMiddle Text="中间" />  
+      <btnTop Text="顶部" />  
+      <lbSubtitleStrokeWidth Text="轮廓宽度:" />  
+      <lbSubtitleStyle Text="字体风格:" />  
+      <lbSubtitleFont Text="字体:" /> 
+      <lbSubtitleFontColor Text="字体颜色:" /> 
+      <lbSubtitleSize Text="字体大小:" /> 
+      <btnL90 ToolTip="逆时针旋转" />  
+      <lbRotation Text="旋转:" />  
+      <btnR90 ToolTip="顺时针旋转" />  
+      <cmbAspectRatio> 
+        <Items>保持原始比例
+裁剪尺寸
+全屏
+16:9
+4:3
+信箱
+全景扫描
+</Items> 
+      </cmbAspectRatio>  
+      <btnLR180 ToolTip="水平翻转" />  
+      <btnUD180 ToolTip="垂直翻转" />  
+      <lbAspectRotio Text="长宽比:" />  
+      <lbResolution Text="1080 * 720" />  
+      <lbOriginalSize Text="原始大小:" />  
+      <gLabel1 Text="* " />  
+      <lbCrop Text="裁剪区域大小:" />
+      <lbFilters Text="滤镜:" /> 
+      <lbBrightness Text="亮度:" />  
+      <lbVideoEffect Text="视频特效:" />  
+      <lbContrast Text="对比度:" />  
+      <lbSaturation Text="饱和度:" />
+      <lbDeinterlace Text="逐行扫描:" />  
+      <lbSaturationV Text="0" />  
+      <lbEnhance Text="视频增强:" />  
+      <lbContrastV Text="0" />
+      <lbBrightV Text="0" />
+      <chkEnhance Text="自动增强" />
+      <cbDeinterlace> 
+        <Items>None
+Repeat odd field
+Repeat even field
+Odd interpolate
+Even interpolate
+</Items> 
+      </cbDeinterlace>
+      <lbTransparence Text="透明度" />
+      <rbTextType Text="文字类型" />  
+      <lbTransparenceV Text="50/100" />  
+      <rbImgType Text="图像类型" />  
+      <rbNone Text="无" />  
+      <lbWaterMarkSet Text="水印设置" />
+      <fontEditControl1> 
+        <GControls> 
+          <btnDefault Text="默认" />  
+          <btnApply Text="确定" /> 
+        </GControls> 
+      </fontEditControl1>
+      <lbVolumeV Text="100" />
+      <lbVolume Text="音量" />
+    </MediaEditForm>  
+    <AVPlayForm Text="播放器">
+      <contextMenuStrip/>  
+      <menuOpenPath Text="打开文件夹" />
+      <menuSettings Text="设置" />
+      <btnNext ToolTip="下一步" />  
+      <btnPre ToolTip="上一步" />
+      <imgVolume ToolTip="静音" />  
+      <btnFullScreen ToolTip="全屏" />  
+      <btnSubtitle ToolTip="标题" />  
+      <btnSnapshot ToolTip="捕获" />  
+      <btnSettings ToolTip="设置" />  
+    </AVPlayForm>  
+    <SnapshotSettingsForm Text="设置"> 
+      <lbFormat Text="格式：" />  
+      <lbSaveto Text="保存到：" />  
+      <cbxFormat> 
+        <Items>JPG
+BMP
+</Items> 
+      </cbxFormat>  
+      <btnOK Text="确定" />  
+      <btnCancel Text="取消" />  
+    </SnapshotSettingsForm>  
+    <RegisterForm Text="注册">
+      <lblHeaderTitle Text="您只能使用试用版本转换原始视频的1/3，升级到完整版即可去除所有限制。" />  
+      <gLabel1 Text="主要特性" />  
+      <btnBuy Text="购买" />  
+      <btnRegister Text="注册" />  
+      <lbtnContinueTiral Text="继续试用" />  
+      <lblRegistered Text="注册版" />  
+      <lblTiral Text="试用版" />  
+      <lblConvertGif Text="转换视频或图片为 GIF" />  
+      <lblAutoFixMetadata Text="自动修复和编辑视频元数据信息。" />  
+      <lblTransfertoDevice Text="将视频传输到 Android/iOS 设备。" />  
+      <lblCustomizeDVD Text="使用各种 DVD 模板自定义 DVD 菜单。" />  
+      <lblRecord Text="从任何网站上录制视频。" />  
+      <lblBurnVideo Text="将您的珍贵视频刻录到高品质的DVD光盘。" />  
+      <lblSpeedConversion Text="支持高速转换" />  
+      <lblDownloadVideo Text="从1000多个视频网站下载视频。" />  
+      <lblConvetBatch Text="任何视频/ DVD 批量转换成不同的格式。" />  
+      <lblConvertVideo Text="将任何视频/ DVD 转换为1000多种高质量的格式。" />  
+      <lblDownloadVideoCount Text="5个文件" />  
+      <lblConvertTiralCount Text="1/3 长度" />  
+      <lblRecordCount Text="1分钟" />  
+      <lblConvertGifCount Text="5个文件" />
+      <lblAutoFixMetadataCount Text="5个文件" />
+      <lblTransferCount Text="5个文件" />
+    </RegisterForm>
+    <GifGenerateProgress>
+      <lblTips Text="创建 GIF: %s" />
+    </GifGenerateProgress>  
+    <GifMakerForm Text="GIF 制作器">
+      <btnMakeGif Text="创建 GIF" />  
+      <btnAddFile Text="添加文件" />  
+      <BtnImageToGIf Text="图片转换 GIF" />  
+      <btnVideoToGif Text="视频转换 GIF" />
+    </GifMakerForm>  
+    <ImagesToGifPage>
+      <miRemove Text="移除" />
+      <miClear Text="移除全部" />
+      <lblTips Text="添加 JPG，PNG，JPEG，BMP 文件开始制作 GIF。" />
+      <labFrameRate Text="帧率：" />  
+      <lbOutPutSize Text="输出格式：" />  
+      <labOutFolder Text="保存到：" />  
+      <edtW Text="200" />  
+      <EdtH Text="200" />  
+      <gLabel1 Text="X" />  
+      <labMillSec Text="fps" />
+      <btnVideoToGif Text="创建 GIF" />
+    </ImagesToGifPage>  
+    <VideoToGifPage> 
+      <btnNext ToolTip="下一步" />  
+      <btnPre ToolTip="上一步" />
+      <lbEndTime Text="结束时间" />  
+      <mtEndTime Mask="00:00:00.00" Text="00:00:00.00" />  
+      <mtStartTime Mask="00:00:00.00" Text="00:00:00.00" />  
+      <lbStartTime Text="开始时间" />  
+      <labOutFolder Text="保存到：" />  
+      <labFrameRate Text="帧率：" />  
+      <labMillSec Text="fps" />  
+      <gLabel1 Text="X" />  
+      <EdtH Text="160" />  
+      <edtW Text="160" />  
+      <lbOutPutSize Text="输出格式：" />
+      <lblTips Text="目前支持MP4，M4V，MOV格式。" />
+    </VideoToGifPage>  
+    <MediaMetadataForm Text="修复媒体元数据">
+      <lblSearching Text="搜索视频元数据..." />
+      <lblDefinition Text="清晰度:" />  
+      <lblCommentRating Text="内容评分:" />  
+      <lblGenre Text="类型:" />  
+      <lblReleaseDate Text="发布日期:" />  
+      <cmbGenre Text="动作"> 
+        <Items>Action &amp;Adventure
+Anime
+Cassics
+Comedy
+Concert Films
+Documentary
+Drama
+Foreign
+Holiday
+Horror
+Independent
+Kids &amp;Family
+Made for TV
+Music document
+Music Feature
+Music Feature
+Musicals
+Romance
+Sci-Fi &amp;Fantas
+Short Films
+Special Interest tourism
+Sports
+Thriller
+Urban
+Western
+</Items> 
+      </cmbGenre>  
+      <cmbCommentRating Text="没有评级"> 
+        <Items>没有评级
+G
+PG
+PG-13
+R
+NC-17
+未评级
+</Items> 
+      </cmbCommentRating>  
+      <cmbDefinition Text="高清"> 
+        <Items>高清
+标清
+</Items> 
+      </cmbDefinition>  
+      <pnlVideoDescription />  
+      <pnlVideoSelected />  
+      <lblChooseFile Text="选择文件:" />  
+      <lblLanguage Text="语言:" />  
+      <lblEpisode Text="插曲:" />  
+      <lblSeason Text="季节:" />  
+      <lblName Text="名称:" />  
+      <lblType Text="类型:" />  
+      <btnSearch Text="查找" />  
+      <cmbVideoType Text="电影"> 
+        <Items>电影
+TV 秀
+家庭视频
+</Items> 
+      </cmbVideoType>
+<cmbMusicType Text="音乐"> 
+<Items>音乐</Items> 
+</cmbMusicType>
+      <cmbLanguage Text="English"> 
+        <Items>English
+Français
+Italiano
+Português
+Español
+Deutsch
+日本語
+</Items> 
+      </cmbLanguage>  
+      <lblComments Text="评论:" />  
+      <lblDescription Text="描述:" />  
+      <lblActors Text="演员:" />  
+      <lblTagline Text="标语:" />  
+      <lblScreenWriters Text="编剧:" />  
+      <lblDirectors Text="导演:" />  
+      <lblEspisodeName Text="剧集名称:" />
+      <btnSave Text="保存" />  
+      <btnCancel Text="取消" /> 	  
+	  <lblMp3Artist Text="艺术家："/>
+	  <lblMp3Album Text="专辑："/>
+	  <lblMp3AlbumArtist Text="专辑艺术家："/>
+	  <lblMp3Year Text="年份："/>
+	  <lblTrackNumber Text="轨道："/>
+	  <lblMp3Comments Text="评论："/>
+    </MediaMetadataForm>  
+    <ToolBoxPage>
+      <lbMediaTools Text="媒体工具" /> 
+      <lbOther Text="辅助工具" />
+    </ToolBoxPage>  
+    <VRConverterForm Text="VR 转换器">
+      <lbChooseFile Text="选择文件:" />  
+      <lbSaveFile Text="保存文件:" />
+      <btnConvert Text="转换" />
+      <lbVideoMode Text="视频模式" />  
+      <lbConvertTo Text="转换为" />  
+      <lbSamsung Text="Samsung Gear VR" />  
+      <lbOculus Text="Oculus Rift" />  
+      <lbHTC Text="HTC Vive" />  
+    </VRConverterForm>  
+    <ConnectErrorPage>
+      <labFAQ Text="4.常问问题" />  
+      <labSupportCt Text="5.联系我们的支持中心。" />  
+      <lblNotice3 Text="3.更换另一个USB接口。" />  
+      <lblNotice2 Text="2.拔下再重新插上USB数据线。" />  
+      <lblNotice1 Text="1.单击“重试”重新连接。" />  
+      <lblNotice Text="连接失败，请按照下面的教程进行修复：" />
+      <btnUSBTry Text="重试" /> 
+    </ConnectErrorPage>  
+    <ConnectingPage>
+      <lblState Text="连接中..." />
+      <lklabNotPhone Text="忽略此设备。" />
+      <btnCancel Text="取消" /> 
+    </ConnectingPage>
+    <iOSNeedPasswordPage>
+      <btnRetry Text="完成" />
+      <glblTip Text="请输入您的密码以解锁您的设备" /> 
+    </iOSNeedPasswordPage>  
+    <iOSRecoveryPage>
+      <lbRecoveryStatusTitle Text="连接失败。检测到恢复模式。" />  
+      <lbRecoveryDescription Text="单击以退出恢复模式" />
+      <btnRepair Text="修复" />  
+      <lblJumpManualPage Text="无法退出恢复模式？请手动退出。" />
+      <lbManufatureSetp1 Text="按住主页和电源按钮约15秒钟，此操作会关闭iPhone" />  
+      <lbManufatureSetp2 Text="按住电源按钮10秒钟。" />  
+      <lbRecoveryModeOr Text="或者" /> 
+    </iOSRecoveryPage>  
+    <iOSSetupAuthPage>
+      <btnRetry Text="重试" />  
+      <glblTip Text="请点击弹窗{0}上的“信任”" /> 
+    </iOSSetupAuthPage>  
+    <SetupAuthPage> 
+      <lblTips Text="1.请检查您的手机屏幕并授权此电脑，如下所示。" />  
+      <labSleepTitle Text="为继续下面的操作，需要授权设备。" />
+      <btnRetry Text="在此显示" />  
+      <labNotice Text="无法显示弹窗？" />  
+      <lblTips1 Text="2.仍然没有工作？ 请重新插入您的设备。" />
+    </SetupAuthPage>  
+    <SetupSleepPage> 
+      <labSleepTitle Text="糟糕！您的设备正在睡眠或连接不良。这儿有一些提示。" />  
+      <labTip1 Text="1.通过USB将此Android设备重新连接到此电脑。" />  
+      <labTip2 Text="2.如果Android设备运行的是安卓4.2.2或更高版本，请通过设备授权此电脑，如下所示。" />
+    </SetupSleepPage>  
+    <USBDebugPage> 
+      <labSetTitle Text="1.在设备中检查Android版本（设置&gt;关于设备&gt; Android版本）" />  
+      <labUSBmodeHint Text="按照以下步骤启用USB调试：" />
+      <btnVersion Text="2.0~2.3" />  
+      <btnVersion1 Text="3.0~4.1" />  
+      <btnVersion2 Text="4.2~5.1" />  
+      <btnVersion3 Text="6.0+" />
+      <likLabel Text="如果我的设备无法与Video Converter Ultimate连接，该怎么办？" />  
+      <labSetTitleEx Text="2.打开USB调试" />  
+      <lklabNotPhone Text="忽略此设备。" /> 
+    </USBDebugPage>  
+    <WelcomePage>
+      <labwelcomeTips1 Text="使用USB数据线连接设备" />  
+      <labSupportDevice Text="支持的设备" />  
+      <labAndroidDevice Text="Android 2.2或更高版本的设备" />  
+      <labIosDevice Text="iOS 5或更高版本的iPhone，iPad，iPod Touch" />
+      <lbinfo Text="连接设备后，可以直接将文件传输到设备。" />
+      <gLabel2 Text="摄像机，闪存盘，可移动硬盘" />
+      <lkWaitInfo Text="{0} 个视频正在等待转移到您的设备。" />
+    </WelcomePage>
+    <TransferPage>
+      <btnAddFiles Text="添加文件" />  
+      <lbDeviceName Text="Roger's iPhone is Connected" />  
+      <lblTitle Text="操作标题" />
+      <lblOper1 Text="点击您浏览器上的“添加”按钮" />  
+      <lblOper2 Text="传输已下载/录制的文件" />
+      <lbLoadFailInfo Text="您的设备无法被 Video Converter Ultimate 读取，请将日志文件反馈给我们。" />
+      <labLoading Text="已加载 {0}%" /> 
+      <mnAddFiles Text="添加文件..." />
+      <mnAddFolder Text="添加文件夹..." />
+      <btnTransferAll Text="传输全部" />  
+      <cnMenuOpreation/>  
+      <tspTransfer Text="传输" />
+      <tspPlay Text="播放" />
+      <tspDelete Text="移除" />
+      <tspDeleteAll Text="移除全部" />
+      <tspFileInformation Text="媒体信息" />
+      <tspOpenLocation Text="打开文件所在位置" />
+    </TransferPage>
+    <TransferItem>
+      <btnTransfer Text="传输" />
+      <btnCancelTrans Text="取消" />
+    </TransferItem>
+    <WaitTransferForm Text="等待传输"> 
+    </WaitTransferForm>  
+    <TrimForm Text="截取"> 
+      <btnCut Text="剪切" />  
+      <btnDelete Text="删除" />
+      <chkMerge Text="合并成一个文件" />  
+      <gButton1 Text="取消" />  
+      <btnOk Text="保存" />  
+    </TrimForm> 
+    <!-- record begin -->
+    <frmMain Caption="Wondershare屏幕录像机">
+      <lbCaptureArea Caption="捕获区域" />
+      <lblWidth Caption="W" />
+      <lblHeight Caption="H" />
+      <edtWidth Hint="宽度" />
+      <edtHeight Hint="高度" />
+      <btnMode Hint="选择录制模式" />
+      <btnMic Hint="从麦克风录音" />
+      <btnSpk Hint="录制系统音频" />
+      <btnMicDevice Caption="麦克风" />
+      <btnSpkDevice Caption="系统音频" />
+      <btnStart Hint="点击开始录制" />
+      <btnRatio Hint="锁定宽高比" />
+      <btnRatio_2 Hint="解锁宽高比" />
+      <lblSpk Caption="系统音频开" />
+      <lblSpk_2 Caption="系统音频关" />
+      <pnlSettings>
+        <lbTitleGeneral Caption="常规" />
+        <lbTitleRecorderTime Caption="录制计时器" />
+        <lbTitleMouse Caption="鼠标" />
+        <lbTitleShortcut Caption="快捷键" />
+        <btnReset Caption="重置为默认" />
+        
+        <lblTGeneral Caption="常规" />
+        <lblSave Caption="保存为:" />
+        <lblFrameRate Caption="帧率:" />
+        <lblQuality Caption="质量:" />
+        <cbQuality>
+          <Items.Strings>低&#10;中等&#10;高&#10;</Items.Strings>
+        </cbQuality>        
+        <lblTRecordTime Caption="录制计时器:" />
+        <chbStopTime1 Caption="手动开始并结束于:" />
+        <lblHour Caption="时" />
+        <lblMinute Caption="分" />
+        <lblSecond Caption="秒" />        
+        <lblHour2 Caption="时" />
+        <lblMinute2 Caption="分" />
+        <lblSecond2 Caption="秒" />                
+        <chbStopTime2 Caption="按时间表启动并结束:" />
+        <lblStartTime Caption="开始时间：" />
+        <lblEndTime Caption="结束时间:" />        
+        <lblTMouse Caption="鼠标:" />
+        <chbCursor Caption="录制时显示鼠标" />
+        <chbSound Caption="播放鼠标点击声音" />        
+        <lblTShortCuts Caption="快捷键" />        
+        <lblHotkey Caption="开始/停止录制:" />        
+        <lblHotkeyWarning Caption="无效" />        
+        <lblTimerWarning Caption="磁盘空间不足，请腾出更多的空间" />
+        <chbTimer Caption="停止录制，倒计时" />
+      </pnlSettings>
+      <pmTray>
+        <miRecord Caption="开始录制" />
+        <miRecord_2 Caption="停止录制" />
+        <miShowRecord Caption="显示录音工具栏" />
+        <miShowMain Caption="打开Wondershare屏幕录像机" />
+        <miExit Caption="退出" />
+      </pmTray>
+      <pmMode>
+        <miFullScreen Caption="全屏" />
+        <miCustom Caption="自定义" />
+        <miWindow Caption="目标窗口" />
+      </pmMode>
+    </frmMain> 
+    <frmMsgBox Caption="信息">
+      <cbNoShow Caption="下次不再显示" />
+    </frmMsgBox>   
+    <frmRecord Caption="Wondershare屏幕录像机">
+      <btnStop Hint="停止" />
+      <btnClose Hint="最小化" />
+    </frmRecord>
+    <!-- record end -->
+  </Forms> 
+  <FormatInfos>
+	  <FormatInfo ID="1003001" title="与来源相同" />
+	  <FormatInfo ID="1003002" title="HD 1080P" />
+	  <FormatInfo ID="1003003" title="HD 720P" />
+	  <FormatInfo ID="1003004" title="640P" />
+	  <FormatInfo ID="1003005" title="SD 480P" />
+	  <FormatInfo ID="1031001" title="4K视频" />
+	  <FormatInfo ID="2901001" title="3D红蓝" />
+	  <FormatInfo ID="2902001" title="3D左右" />
+	  <FormatInfo ID="1001001" title="与来源相同" />
+	  <FormatInfo ID="1001002" title="HD 1080P " />
+	  <FormatInfo ID="1001003" title="HD 720P " />
+	  <FormatInfo ID="1001004" title="SD 480P " />
+	  <FormatInfo ID="1028001" title="4K视频" />
+	  <FormatInfo ID="2911001" title="3D红蓝" />
+	  <FormatInfo ID="2912002" title="3D左右" />
+	  <FormatInfo ID="1005001" title="与来源相同" />
+	  <FormatInfo ID="1005002" title="HD 1080P" />
+	  <FormatInfo ID="1005003" title="HD 720P" />
+	  <FormatInfo ID="1005004" title="SD 480P" />
+	  <FormatInfo ID="1029001" title="4K视频" />
+	  <FormatInfo ID="2905001" title="3D红蓝" />
+	  <FormatInfo ID="2906001" title="3D左右" />
+	  <FormatInfo ID="1006001" title="与来源相同" />
+	  <FormatInfo ID="1102001" title="HD 1080P" />
+	  <FormatInfo ID="1006003" title="HD 720P" />
+	  <FormatInfo ID="1006004" title="SD 480P" />
+	  <FormatInfo ID="2907001" title="3D红蓝" />
+	  <FormatInfo ID="2908001" title="3D左右" />
+	  <FormatInfo ID="1004004" title="与来源相同" />
+	  <FormatInfo ID="1004003" title="HD 1080P" />
+	  <FormatInfo ID="1004002" title="HD 720P" />
+	  <FormatInfo ID="1004001" title="SD 480P" />
+	  <FormatInfo ID="1002004" title="与来源相同" />
+	  <FormatInfo ID="1002003" title="HD 1080P" />
+	  <FormatInfo ID="1002002" title="HD 720P" />
+	  <FormatInfo ID="1002001" title="SD 480P" />
+	  <FormatInfo ID="1007004" title="与来源相同" />
+	  <FormatInfo ID="1007003" title="HD 1080P" />
+	  <FormatInfo ID="1007002" title="HD 720P" />
+	  <FormatInfo ID="1007001" title="SD 480P" />
+	  <FormatInfo ID="1000001" title="与来源相同" />
+	  <FormatInfo ID="1000004" title="HD 1080P" />
+	  <FormatInfo ID="1000003" title="HD 720P" />
+	  <FormatInfo ID="1000002" title="SD 480P" />
+	  <FormatInfo ID="1008001" title="SD 480P" />
+	  <FormatInfo ID="1009001" title="与来源相同" />
+	  <FormatInfo ID="1009002" title="SD 480P MPEG1" />
+	  <FormatInfo ID="1009003" title="HD 720P MPEG1" />
+	  <FormatInfo ID="1009004" title="HD 1080P MPEG1" />
+	  <FormatInfo ID="1010002" title="SD 480P MPEG2" />
+	  <FormatInfo ID="1010003" title="HD 720P MPEG2" />
+	  <FormatInfo ID="1010004" title="HD 1080P MPEG2" />
+	  <FormatInfo ID="1010005" title="SD 480P MPEG2" />
+	  <FormatInfo ID="1010006" title="SD 576P" />
+	  <FormatInfo ID="1011001" title="480P DVD视频" />
+	  <FormatInfo ID="1012001" title="与来源相同" />
+	  <FormatInfo ID="1012002" title="SD 480P" />
+	  <FormatInfo ID="1012003" title="HD 720P" />
+	  <FormatInfo ID="1012004" title="HD 1080P" />
+	  <FormatInfo ID="1021001" title="与来源相同" />
+	  <FormatInfo ID="1021002" title="SD 480P" />
+	  <FormatInfo ID="1021003" title="HD 720P" />
+	  <FormatInfo ID="1021004" title="HD 1080P" />
+	  <FormatInfo ID="1013001" title="与来源相同" />
+	  <FormatInfo ID="1013002" title="SD 480P" />
+	  <FormatInfo ID="1013003" title="HD 720P" />
+	  <FormatInfo ID="1013004" title="HD 1080P" />
+	  <FormatInfo ID="1014001" title="3GP1" />
+	  <FormatInfo ID="1015001" title="3GP2" />
+	  <FormatInfo ID="1016001" title="ProRes 422 (Proxy)" />
+	  <FormatInfo ID="1017001" title="ProRes 422 (LT)" />
+	  <FormatInfo ID="1018001" title="ProRes 422" />
+	  <FormatInfo ID="1019001" title="ProRes 422 (HQ)" />
+	  <FormatInfo ID="1020001" title="ProRes 4444" />
+	  <FormatInfo ID="1214001" title="SD 480P" />
+	  <FormatInfo ID="1214003" title="SD 640P" />
+	  <FormatInfo ID="1214004" title="HD 720P" />
+	  <FormatInfo ID="1214005" title="HD 1080P" />
+	  <FormatInfo ID="1100001" title="HD 720P" />
+	  <FormatInfo ID="1100002" title="HD 1080P" />
+	  <FormatInfo ID="1101001" title="HD 720P" />
+	  <FormatInfo ID="1101002" title="HD 1080P" />
+	  <FormatInfo ID="1104001" title="HD 720P" />
+	  <FormatInfo ID="1104002" title="HD 1080P" />
+	  <FormatInfo ID="2400001" title="SD 360P" />
+	  <FormatInfo ID="2400002" title="SD 480P" />
+	  <FormatInfo ID="2400003" title="HD 720P" />
+	  <FormatInfo ID="2400004" title="HD 1080P" />
+	  <FormatInfo ID="2401001" title="SD 360P" />
+	  <FormatInfo ID="2401002" title="SD 480P" />
+	  <FormatInfo ID="2401003" title="HD 720P" />
+	  <FormatInfo ID="2401004" title="HD 1080P" />
+	  <FormatInfo ID="2402001" title="SD 360P" />
+	  <FormatInfo ID="2402002" title="SD 480P" />
+	  <FormatInfo ID="2402003" title="HD 720P" />
+	  <FormatInfo ID="2402004" title="HD 1080P" />
+	  <FormatInfo ID="2403005" title="与来源相同" />
+	  <FormatInfo ID="2403001" title="SD 360P" />
+	  <FormatInfo ID="2403002" title="SD 480P" />
+	  <FormatInfo ID="2403003" title="HD 720P" />
+	  <FormatInfo ID="2403004" title="HD 1080P" />
+	  <FormatInfo ID="2405001" title="与来源相同" />
+	  <FormatInfo ID="2405002" title="SD 360P" />
+	  <FormatInfo ID="2405003" title="SD 480P" />
+	  <FormatInfo ID="2405004" title="HD 720P" />
+	  <FormatInfo ID="2408001" title="与来源相同" />
+	  <FormatInfo ID="2408002" title="SD 360P" />
+	  <FormatInfo ID="2408003" title="SD 480P" />
+	  <FormatInfo ID="2408004" title="HD 720P" />
+	  <FormatInfo ID="2408005" title="HD 1080P" />
+	  <FormatInfo ID="1200000" title="与来源相同" />
+	  <FormatInfo ID="1200001" title="高质量" />
+	  <FormatInfo ID="1200002" title="中等质量" />
+	  <FormatInfo ID="1200003" title="低质量" />
+	  <FormatInfo ID="1201001" title="高质量" />
+	  <FormatInfo ID="1201002" title="中等质量" />
+	  <FormatInfo ID="1201003" title="低质量" />
+	  <FormatInfo ID="1202001" title="高质量" />
+	  <FormatInfo ID="1202002" title="中等质量" />
+	  <FormatInfo ID="1202003" title="低质量" />
+	  <FormatInfo ID="1203001" title="高质量" />
+	  <FormatInfo ID="1203002" title="中等质量" />
+	  <FormatInfo ID="1203003" title="低质量" />
+	  <FormatInfo ID="1204001" title="WMA8 高质量" />
+	  <FormatInfo ID="1204002" title="WMA8 中等质量" />
+	  <FormatInfo ID="1204003" title="WMA8 低质量" />
+	  <FormatInfo ID="1204004" title="WMA9高质量" />
+	  <FormatInfo ID="1204005" title="WMA9中等品质" />
+	  <FormatInfo ID="1204006" title="WMA9低品质" />
+	  <FormatInfo ID="1205001" title="无损质量" />
+	  <FormatInfo ID="1206001" title="高质量" />
+	  <FormatInfo ID="1206002" title="中等质量" />
+	  <FormatInfo ID="1206003" title="低质量" />
+	  <FormatInfo ID="1207001" title="无损质量" />
+	  <FormatInfo ID="1208001" title="高质量" />
+	  <FormatInfo ID="1208002" title="中等质量" />
+	  <FormatInfo ID="1208003" title="低质量" />
+	  <FormatInfo ID="1209001" title="无损质量" />
+	  <FormatInfo ID="1210001" title="无损质量" />
+	  <FormatInfo ID="1211001" title="无损质量" />
+	  <FormatInfo ID="1212001" title="高质量" />
+	  <FormatInfo ID="1212003" title="中等质量" />
+	  <FormatInfo ID="1212003" title="低质量" />
+	  <FormatInfo ID="1213001" title="高质量" />
+	  <FormatInfo ID="1213002" title="中等质量" />
+	  <FormatInfo ID="1213003" title="低质量" />
+	  <FormatInfo ID="1847101" title="iPhone 7 Plus" />
+      <FormatInfo ID="1847001" title="iPhone 7" />
+	  <FormatInfo ID="1845001" title="iPhone 6S,6S Plus" />
+	  <FormatInfo ID="1844001" title="iPhone 6,6 Plus" />
+	  <FormatInfo ID="1846001" title="iPad mini 4" />
+	  <FormatInfo ID="1899001" title="iPad Pro" />
+	  <FormatInfo ID="1843001" title="iPad mini 2" />
+	  <FormatInfo ID="1842001" title="iPad Air" />
+	  <FormatInfo ID="1840001" title="iPhone 5s" />
+	  <FormatInfo ID="1841001" title="iPhone 5c" />
+	  <FormatInfo ID="1818001" title="iPad mini" />
+	  <FormatInfo ID="1816001" title="iPhone 5" />
+	  <FormatInfo ID="1819001" title="iPad 4" />
+	  <FormatInfo ID="1806001" title="iPhone 4" />
+	  <FormatInfo ID="1807001" title="iPhone 4S" />
+	  <FormatInfo ID="1808001" title="iPad" />
+	  <FormatInfo ID="1809001" title="iPad 2" />
+	  <FormatInfo ID="1814001" title="新 iPad" />
+	  <FormatInfo ID="1803001" title="iPhone 1-3GS" />
+	  <FormatInfo ID="1817001" title="iPod Touch 5" />
+	  <FormatInfo ID="1812001" title="iPod Touch 4" />
+	  <FormatInfo ID="1800001" title="iPod touch 1-3" />
+	  <FormatInfo ID="1801001" title="iPod nano" />
+	  <FormatInfo ID="1802001" title="iPod classic" />
+	  <FormatInfo ID="1810001" title="Apple TV" />
+	  <FormatInfo ID="1811001" title="Apple TV 2" />
+	  <FormatInfo ID="1815001" title="新 Apple TV" />
+	  <FormatInfo ID="3101001" title="HTC Vive" />
+	  <FormatInfo ID="3101002" title="HTC Vive" />
+	  <FormatInfo ID="3102001" title="三星 Gear VR" />
+	  <FormatInfo ID="3102002" title="三星 Gear VR" />
+	  <FormatInfo ID="3103001" title="Oculus Rift" />
+	  <FormatInfo ID="3103002" title="Oculus Rift" />
+	  <FormatInfo ID="2781001" title="Galaxy S6" />
+	  <FormatInfo ID="2780001" title="Galaxy S5" />
+	  <FormatInfo ID="2770001" title="Galaxy S4" />
+	  <FormatInfo ID="2757001" title="Galaxy S III" />
+	  <FormatInfo ID="2756001" title="Galaxy S II" />
+	  <FormatInfo ID="2716001" title="Galaxy Tab" />
+	  <FormatInfo ID="2758001" title="Galaxy Note" />
+	  <FormatInfo ID="2759001" title="Galaxy Nexus" />
+	  <FormatInfo ID="2701001" title="Galaxy S" />
+	  <FormatInfo ID="2702001" title="Captivate" />
+	  <FormatInfo ID="2703001" title="i7500" />
+	  <FormatInfo ID="2705001" title="Moment" />
+	  <FormatInfo ID="2706001" title="Galaxy Spica" />
+	  <FormatInfo ID="2707001" title="Fascinate" />
+	  <FormatInfo ID="2708001" title="Epic 4G " />
+	  <FormatInfo ID="2709001" title="Mesmerize" />
+	  <FormatInfo ID="2710001" title="Intercept" />
+	  <FormatInfo ID="2715001" title="Mythic" />
+	  <FormatInfo ID="2717001" title="Focus" />
+	  <FormatInfo ID="1310002" title="PS4" />
+	  <FormatInfo ID="1311001" title="Xbox one" />
+	  <FormatInfo ID="1300001" title="PSP" />
+	  <FormatInfo ID="1300701" title="PS3" />
+	  <FormatInfo ID="1304001" title="Xbox 360" />
+	  <FormatInfo ID="1305001" title="Wii" />
+	  <FormatInfo ID="1307001" title="PS Vita" />
+	  <FormatInfo ID="5000001" title="P10/Plus" />
+	  <FormatInfo ID="5000002" title="P9/Plus" />
+	  <FormatInfo ID="5000003" title="P8/Plus" />
+	  <FormatInfo ID="5000004" title="Mate S" />
+	  <FormatInfo ID="5000005" title="Mate9/Pro" />
+	  <FormatInfo ID="5000006" title="Mate8/Pro" />
+	  <FormatInfo ID="5000007" title="nova/Plus" />
+	  <FormatInfo ID="2132001" title="Flyer" />
+	  <FormatInfo ID="2133001" title="Sensation" />
+	  <FormatInfo ID="2134001" title="Vivid" />
+	  <FormatInfo ID="2135001" title="HTC ONE" />
+	  <FormatInfo ID="2100001" title="Droid Incredible" />
+	  <FormatInfo ID="2102001" title="Desire" />
+	  <FormatInfo ID="2105001" title="Wildfire" />
+	  <FormatInfo ID="2111001" title="Diamond" />
+	  <FormatInfo ID="2112001" title="HTC HD2" />
+	  <FormatInfo ID="2113001" title="EVO 4G" />
+	  <FormatInfo ID="2115001" title="HTC Aria" />
+	  <FormatInfo ID="2116001" title="HTC Surround" />
+	  <FormatInfo ID="2117001" title="HTC HD7" />
+	  <FormatInfo ID="2615001" title="Optimus" />
+	  <FormatInfo ID="2601001" title="Prime" />
+	  <FormatInfo ID="2604001" title="KP500" />
+	  <FormatInfo ID="2607001" title="Bliss UX700" />
+	  <FormatInfo ID="2611001" title="Dare VX9700" />
+	  <FormatInfo ID="2612001" title="Vu CU920" />
+	  <FormatInfo ID="2614001" title="Incite CT810" />
+	  <FormatInfo ID="50001001" title="Pixel" />
+	  <FormatInfo ID="50001002" title="Nexus 6P" />
+	  <FormatInfo ID="50001003" title="Nexus 5X" />
+	  <FormatInfo ID="2801001" title="XPERIA x10" />
+	  <FormatInfo ID="2802001" title="Xperia X8" />
+	  <FormatInfo ID="2803001" title="Vivaz" />
+	  <FormatInfo ID="2500001" title="索尼随身听" />
+	  <FormatInfo ID="2001001" title="三星电视" />
+	  <FormatInfo ID="2002001" title="LG 电视" />
+	  <FormatInfo ID="2003001" title="索尼电视" />
+	  <FormatInfo ID="2004001" title="松下电视" />
+	  <FormatInfo ID="2781301" title="Android General" />
+	  <FormatInfo ID="3008001" title="Nexus 4" />
+	  <FormatInfo ID="3010001" title="Nexus 7" />
+	  <FormatInfo ID="3014001" title="Nexus 10" />
+	  <FormatInfo ID="3004001" title="NOOK Color" />
+	  <FormatInfo ID="3005001" title="NOOK 平板" />
+	  <FormatInfo ID="3007001" title="Kindle Fire" />
+	  <FormatInfo ID="3002001" title="Android 系统" />
+	  <FormatInfo ID="3008001" title="Windows Movie Maker" />
+	  <FormatInfo ID="3006001" title="智能手机" />
+	  <FormatInfo ID="3003001" title="平板电脑" />
+	  <FormatInfo ID="3011001" title="功能手机" />
+	  <FormatInfo ID="3001001" title="ZEN X-Fi2" />
+	  <FormatInfo ID="3002001" title="Zune" />
+	  <FormatInfo ID="1919001" title="XOOM" />
+	  <FormatInfo ID="1920001" title="RAZR" />
+	  <FormatInfo ID="1900001" title="Droid" />
+	  <FormatInfo ID="1911001" title="Droid X" />
+	  <FormatInfo ID="1912001" title="Droid 2" />
+	  <FormatInfo ID="2315001" title="Lumia 900" />
+	  <FormatInfo ID="2300001" title="N900" />
+	  <FormatInfo ID="2301001" title="X6" />
+	  <FormatInfo ID="2302001" title="X3" />
+	  <FormatInfo ID="2303001" title="5800 XpressMusic" />
+	  <FormatInfo ID="2304001" title="E63" />
+	  <FormatInfo ID="2305001" title="5230" />
+	  <FormatInfo ID="2306001" title="E72" />
+	  <FormatInfo ID="2307001" title="N97" />
+	  <FormatInfo ID="2308001" title="N95" />
+	  <FormatInfo ID="2309001" title="N73" />
+	  <FormatInfo ID="2310001" title="N8" />
+	  <FormatInfo ID="2311001" title="N70" />
+	  <FormatInfo ID="2312001" title="6300" />
+	  <FormatInfo ID="2313001" title="C6" />
+	  <FormatInfo ID="2314001" title="5530" />
+	  <FormatInfo ID="2212001" title="PlayBook" />
+	  <FormatInfo ID="2200001" title="Tour series" />
+	  <FormatInfo ID="2201001" title="Storm series" />
+	  <FormatInfo ID="2202001" title="Bold series" />
+	  <FormatInfo ID="2203001" title="Curve 8900" />
+	  <FormatInfo ID="2204001" title="Curve 8500" />
+	  <FormatInfo ID="2205001" title="Curve 8300" />
+	  <FormatInfo ID="2206001" title="Curve 8310" />
+	  <FormatInfo ID="2211001" title="Torch 9800" />
+	  <FormatInfo ID="1608001" title="101 internet tablet" />
+	  <FormatInfo ID="1609001" title="70 internet tablet" />
+	  <FormatInfo ID="1610001" title="43 internet tablet" />
+	  <FormatInfo ID="1613001" title="5 internet tablet" />
+	  <FormatInfo ID="1032001" title="与来源相同" />
+      <FormatInfo ID="1032002" title="HD 1080P" />
+      <FormatInfo ID="1032003" title="HD 720P" />
+      <FormatInfo ID="1032004" title="SD 480P" />
+      <FormatInfo ID="1033001" title="与来源相同" />
+      <FormatInfo ID="1033002" title="HD 1080P" />
+      <FormatInfo ID="1033003" title="HD 720P" />
+      <FormatInfo ID="1033004" title="SD 480P" /> 
+	  
+	  <FormatInfo ID="1200000" title="与来源相同" />
+	  <FormatInfo ID="1201000" title="与来源相同" />
+	  <FormatInfo ID="1204000" title="与来源相同" />
+	  <FormatInfo ID="1203000" title="与来源相同" />
+	  <FormatInfo ID="1202000" title="与来源相同" />
+	  <FormatInfo ID="1212000" title="与来源相同" />
+	  <FormatInfo ID="1213000" title="与来源相同" />
+	  <FormatInfo ID="1208000" title="与来源相同" />
+	  <FormatInfo ID="1206000" title="与来源相同" />
+	</FormatInfos>
+	  <Formats>
+	  <Format ID="1001" title="MP4" />
+	  <Format ID="1002" title="MOV" />
+	  <Format ID="1003" title="MKV" />
+	  <Format ID="1004" title="AVI" />
+	  <Format ID="1005" title="WMV" />
+	  <Format ID="1006" title="M4V" />
+	  <Format ID="1007" title="XVID" />
+	  <Format ID="1008" title="ASF" />
+	  <Format ID="1009" title="DV" />
+	  <Format ID="1010" title="MPEG" />
+	  <Format ID="1011" title="VOB" />
+	  <Format ID="1012" title="WEBM" />
+	  <Format ID="1013" title="OGV" />
+	  <Format ID="1014" title="DIVX" />
+	  <Format ID="1015" title="3GP" />
+	  <Format ID="1016" title="PRORES" />
+	  <Format ID="1017" title="MXF" />
+	  <Format ID="1018" title="TS" />
+	  <Format ID="1019" title="TRP" />
+	  <Format ID="1020" title="MPG" />
+	  <Format ID="1021" title="FLV" />
+	  <Format ID="1022" title="F4V" />
+	  <Format ID="1023" title="SWF" />
+	  <Format ID="1024" title="YouTube" />
+	  <Format ID="1025" title="Facebook" />
+	  <Format ID="1026" title="Vimeo" />
+	  <Format ID="1027" title="HEVC MP4" />
+      <Format ID="1028" title="HEVC MKV" />
+	  <Format ID="2001" title="MP3" />
+	  <Format ID="2002" title="WAV" />
+	  <Format ID="2003" title="M4A" />
+	  <Format ID="2004" title="WMA" />
+	  <Format ID="2005" title="AAC" />
+	  <Format ID="2006" title="FLAC" />
+	  <Format ID="2007" title="AC3" />
+	  <Format ID="2008" title="AIFF" />
+	  <Format ID="2009" title="M4B" />
+	  <Format ID="2010" title="M4R" />
+	  <Format ID="2011" title="AU" />
+	  <Format ID="2012" title="APE" />
+	  <Format ID="2013" title="MKA" />
+	  <Format ID="2014" title="OGG" />
+	  <Format ID="3001" title="Apple" />
+	  <Format ID="3002" title="三星" />
+	  <Format ID="3003" title="华为" />
+	  <Format ID="3004" title="HTC" />
+	  <Format ID="3005" title="LG" />
+	  <Format ID="3006" title="Google" />
+	  <Format ID="3007" title="索尼" />
+	  <Format ID="3008" title="TV" />
+	  <Format ID="3009" title="游戏" />
+	  <Format ID="3012" title="Android" />
+	  <Format ID="3010" title="其他" />
+	</Formats>
+</LanguageResource>

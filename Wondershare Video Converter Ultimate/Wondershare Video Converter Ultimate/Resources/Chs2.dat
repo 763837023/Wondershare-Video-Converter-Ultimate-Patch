@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LanguageResource Id="CHS" Name="Simplified Chinese" LocaleName="简体中文" Version="1.1" LangID="0x0804" CodePage="936">
+  <Strings>
+    <INF_Version>版本:</INF_Version>
+    <INF_Updating>更新......</INF_Updating>
+    <INF_UpdateSuccessed>更新成功。</INF_UpdateSuccessed>
+    <INF_UpdateFailed>更新失败。</INF_UpdateFailed>
+    <INF_OK>确定</INF_OK>
+    <INF_Cancel>取消</INF_Cancel>
+    <INF_Yes>是</INF_Yes>
+    <INF_No>否</INF_No>
+    <INF_UpdateDownloading>下载更新文件，请稍候...</INF_UpdateDownloading>
+    <INF_DownloadingPercent>(已下载 {0:s}, 总共 {1:s})</INF_DownloadingPercent>
+    <INF_DownloadUpdateFileFail>无法下载更新文件，请检查Internet连接是否正确。</INF_DownloadUpdateFileFail>
+    <INF_UpdateConnectServer>检测新版本...</INF_UpdateConnectServer>
+    <INF_LiveUpdateConfigInvalid>LiveUpdate.ini配置文件不正确。</INF_LiveUpdateConfigInvalid>
+    <INF_DownCompleted>下载完成。但程序正在运行。点击“确定“按钮终止程序并安装新版本，点击“取消”按钮稍后进行安装。</INF_DownCompleted>
+    <INF_UpdateFaildToDownloadXML>更新失败请检查Internet连接是否正确。</INF_UpdateFaildToDownloadXML>
+    <INF_UpdateLastVersion>当前版本已是最新，没有新版本可用。</INF_UpdateLastVersion>
+    <INF_Areyousurecancel>您确定要取消吗？</INF_Areyousurecancel>
+    <INF_UpdateNewVersions>发现新版本。您可以更新到最新版本。您想现在更新吗？</INF_UpdateNewVersions>
+    <INF_UpdateNewVersion>有新版本可用。您想现在更新吗？</INF_UpdateNewVersion>
+    <INF_RegQuit>我们注意到您的注册码的使用次数已经超出了限制。如果您对注册码有任何问题，请与我们联系。</INF_RegQuit>
+    <INF_RegWarning>我们注意到您的注册码已被重复使用，目前您仍然可以正常使用。请检查您的信息安全性。当超过使用限制时，我们将禁用此注册码。</INF_RegWarning>
+    <INF_WhatsNew>更新内容</INF_WhatsNew>
+    <INF_UpdateVersion>版本</INF_UpdateVersion>
+    <INF_MB>MB</INF_MB>
+    <INF_KB>KB</INF_KB>
+    <INF_UnReg>(未注册)</INF_UnReg>
+    <INF_Scanning>扫描中</INF_Scanning>
+    <INF_Search>查找</INF_Search>
+    <INF_AvailableDevice>可用设备: {0}</INF_AvailableDevice>
+    <INF_UnavailableDevice>未找到设备</INF_UnavailableDevice>
+    <INF_FullScreen>全屏</INF_FullScreen>
+    <INF_ExitFullScreen>退出全屏</INF_ExitFullScreen>
+    <INF_Play>播放</INF_Play>
+    <INF_Pause>暂停</INF_Pause>
+    <INF_Quality_Auto>自动</INF_Quality_Auto>
+    <INF_Quality_480P>480P</INF_Quality_480P>
+    <INF_Quality_720P>720P</INF_Quality_720P>
+    <INF_Quality_720HD>720HD</INF_Quality_720HD>
+    <INF_FileLost>文件找不到。您想删除它吗？</INF_FileLost>
+    <INF_LoadFail>无法加载文件:</INF_LoadFail>
+    <INF_NoDevice>未找到设备</INF_NoDevice>
+    <INF_LocalPlay>在电脑上播放</INF_LocalPlay>
+    <INF_CromeCastPlay>在电视上播放</INF_CromeCastPlay>
+    <INF_StopCastQuery>您确定要停止传输吗？</INF_StopCastQuery>
+    <INF_LoadingTitle>测试版</INF_LoadingTitle>
+    <INF_CodeIsEmpty>注册码不能为空。请重试。</INF_CodeIsEmpty>
+    <INF_RegSucess>Wondershare Media Server 已注册！</INF_RegSucess>
+    <INF_RegFail>无效的许可邮箱或注册码！许可的邮箱和注册码都是区分大小写的，请检查您的注册信息，或确保您的注册码与当前版本相符。</INF_RegFail>
+    <INF_RegedTips>&lt;b&gt;注意:&lt;/b&gt;如果您对注册码和软件有任何问题，请访问: &lt;a&gt;Support&lt;/a&gt;.</INF_RegedTips>
+    <INF_UnRegTips>&lt;b&gt;注意:&lt;/b&gt;如果您对注册码和软件有任何问题，请访问: &lt;a&gt;Support&lt;/a&gt;.</INF_UnRegTips>
+    <INF_AudioFilter>所有支持的音频格式</INF_AudioFilter>
+    <INF_VideoFilter>所有支持的视频频格式</INF_VideoFilter>
+    <INF_PhotoFilter>所有支持的图片格式</INF_PhotoFilter>
+    <INF_SubtitleFilter>所有支持的字幕格式</INF_SubtitleFilter>
+    <INF_Subtitle>字幕</INF_Subtitle>
+    <INF_MenuHideSubtitle>隐藏字幕</INF_MenuHideSubtitle>
+    <INF_MenuLoadSubtitle>加载字幕</INF_MenuLoadSubtitle>
+    <INF_MenuSettingSubtitle>字幕设置</INF_MenuSettingSubtitle>
+    <INF_MenuDownLoadSubtitle>字幕下载</INF_MenuDownLoadSubtitle>
+	
+    <INF_BigFont>大</INF_BigFont>
+    <INF_NormalFont>中</INF_NormalFont>
+    <INF_SmallFont>小</INF_SmallFont>
+    <INF_NoSubtitleFontTips>请注意:不可用的电脑字体类型只会在电视显示器上生效。</INF_NoSubtitleFontTips>
+	<INF_StartFindSubtitle>分析视频和字幕来源...</INF_StartFindSubtitle>
+    <INF_CompleteFindSubtitle>分析完毕！</INF_CompleteFindSubtitle>
+    <INF_FindFailedSubtitle>分析失败，找不到匹配项。</INF_FindFailedSubtitle>
+    <INF_NeedInstallAPP>对不起，此时字幕不可用。请从Roku Store下载“Media Server”应用程序以获得额外的字幕支持。谢谢。</INF_NeedInstallAPP>
+	<INF_SubtitleTips>切换字幕可能需要一段时间，或导致重播您的视频。</INF_SubtitleTips>
+	
+	<INF_PCLibrary>PC Library</INF_PCLibrary>
+	<INF_Movie>Movie</INF_Movie>
+	<INF_TVShow>TV Show</INF_TVShow>
+	<INF_HomeVideo>Home Video</INF_HomeVideo>
+	<INF_Music>Music</INF_Music>
+	<INF_Computer>Computer</INF_Computer>
+	<INF_Convert>Convert</INF_Convert>
+	<INF_Download>Download</INF_Download>
+	<INF_Matching>Information Matching...</INF_Matching>
+	<INF_MatchingFailed>Failed,please modify video name to search again.</INF_MatchingFailed>
+	<INF_ChangeLagNeedRestar>The program language has changed.Please restart Media Server to make it work.</INF_ChangeLagNeedRestar>	
+	<INF_MenuMediaLib>Media library</INF_MenuMediaLib>
+	<INF_MenuLocalDisk>Local disk</INF_MenuLocalDisk>
+	<INF_Custom>Custom</INF_Custom>
+	<INF_RegTips_ProductName>Enter your licensed email and registration code of {0} to register.</INF_RegTips_ProductName>
+	<INF_RegTips_Ultimate>Wondershare Video Converter Ultimate</INF_RegTips_Ultimate>
+	<INF_RegTips_Pro>Wondershare Video Converter Pro</INF_RegTips_Pro>
+	<INF_StartMediaServer>媒体服务</INF_StartMediaServer>
+	<INF_AutoRunWithBoot_MediaLibServer>在登录时启动MediaLibServer</INF_AutoRunWithBoot_MediaLibServer>
+	<INF_Exit>退出</INF_Exit>	
+	<INF_TrailHint_T1>将视频转换为150多种格式/任何设备</INF_TrailHint_T1>	
+	<INF_TrailHint_T2>刻录任何视频为专业品质的DVD</INF_TrailHint_T2>	
+	<INF_TrailHint_T3>从1000多个在线视频网站下载视频</INF_TrailHint_T3>	
+	<INF_TrailHint_T4>将任何媒体文件直接传输到电视</INF_TrailHint_T4>	
+	<INF_TrailHint_T5>支持30倍更快的视频转换</INF_TrailHint_T5>	
+	<INF_TrailHint_T6>免费技术支持和升级</INF_TrailHint_T6>	
+	<INF_TrailHint_M1>长度限制（1/3）</INF_TrailHint_M1>
+	<INF_TrailHint_M2>5个文件</INF_TrailHint_M2>
+	<INF_TrailHint_M3>5分钟限制</INF_TrailHint_M3>	
+  </Strings>
+  <Forms>
+	<FontCacheForm>
+		<lbLoading Text="Loading subtitle cache, please wait…" />
+	</FontCacheForm>
+    <AboutForm Text="关于">
+      <lblVersion Text="Version: 1.0 汉化：慕若曦" />
+      <lblDesc Text="Wondershare，是以自主品牌、面向全球消费者提供市场领先的App应用工具的高科技企业，以“智慧家庭，幸福生活！”为使命，致力于为全球用户提供Windows、 Mac OS X、iOS、Android等诸多平台系统上的各种应用工具产品与服务。" />
+	  <lblMore Text="有关Wondershare和Wondershare产品的更多信息，请访问：" />
+      <lblHomePage Text="www.wondershare.com" />
+      <lblCopyright Text="Copyright © 2014 Wondershare. All rights reserved." />
+    </AboutForm>
+    <ContentItem>
+      <btnChromecast ToolTip="在电视上播放" />
+      <btnRemove ToolTip="删除" />
+    </ContentItem>
+    <ContentPage>
+      <miPlay Text="播放" />
+      <miDelete Text="删除" />
+      <miChromecast Text="在电视上播放" />
+      <miLocation Text="位置" />
+      <miSort Text="分类" />
+      <miParseMovieInfo Text="匹配元数据" />
+      <miReset Text="未匹配" />
+      <miClear Text="清除" />
+	  <lbTips Text="在这里导入您的视频文件，只需单击即可将其传输到电视上。您也可以在支持DLNA / UPnP的任何设备上观看这些视频。" />
+    </ContentPage>
+	  <NavigateBar>
+      <btnBack ToolTip="后退" />
+      <btnForward ToolTip="前进" />
+      <btnUp ToolTip="向上" />
+    </NavigateBar>
+    <RefreshBar>
+      <btnRefresh Text="磁盘扫描" />
+      <btnAddFiles Text="导入" />
+    </RefreshBar>
+    <SearchBar>
+      <btnSort ToolTip="分类" />
+      <tsName Text="名称" />
+      <tsTime Text="日期" />
+      <tsType Text="类型" />
+      <tsSize Text="大小" />
+      <tsDuration Text="长度" />
+      <tsAsc Text="升序" />
+      <tsDesc Text="降序" />
+    </SearchBar>
+    <ConfirmForm Text="确认删除">
+      <lblText Text="您确定要删除吗？" />
+      <chbChecked Text="您还想删除源文件吗？" />
+      <btnOk Text="是" />
+      <btnCancel Text="否" />
+    </ConfirmForm>
+    <FeedBackForm Text="反馈">
+      <lbEmail Text="E-mail:" />
+      <lbContent Text="内容:" />
+      <chkLogSend Text="附加日志文件" />
+      <btnSend Text="提交" />
+      <lbEmailTip Text="无效的邮箱地址！" />
+      <lb1Star0 Text="*" />
+      <lbContentTitle Text="感谢您联系我们！" />
+      <lbContentTip Text="向我们发送有关该程序的反馈，或联系我们获取技术支持。" />
+      <lbContentEmptyTip Text="请输入您的意见或建议。" />
+      <lblStar1 Text="*" />
+    </FeedBackForm>
+    <UpdateMainForm Text="在线更新">
+      <btnClose1 Text="取消" />
+      <lblProgressMsg Text="检测新版本。" />
+      <btnClose Text="关闭" />
+      <btnBuy Text="购买" />
+      <btnSetUp Text="现在升级" />
+      <btnCancel Text="稍后提醒我" />
+    </UpdateMainForm>
+    <MainForm Text="Wondershare Media Server">
+      <miHomePage Text="主页" />
+      <miProductPage Text="产品页" />
+      <miRegister Text="注册" />
+      <miBuy Text="购买" />
+      <miFeedback Text="反馈" />
+      <miFAQ Text="常问问题" />
+      <miUpdate Text="检测更新" />
+      <miSetting Text="设置" />
+      <miAbout Text="关于" />
+      <miClose Text="关闭" />
+	  <imStart Text="开始" />
+	  <imSetting Text="设置" />
+	  <imExit Text="退出" />
+    </MainForm>
+    <PlayerControlBar>
+      <lblPlayTime Text="00:00:00/00:00:00" />
+      <btnNext ToolTip="下一步" />
+      <btnPrev ToolTip="上一步" />
+      <btnStop ToolTip="停止" />
+      <imgVolume ToolTip="调整音量" />
+    </PlayerControlBar>
+    <PlayerForm>
+      <menuAuto Text="自动" />
+      <menuHigh Text="最佳（720p高比特率）" />
+      <menuMedium Text="高（720p）" />
+      <menuLow Text="标准（480p）" />
+    </PlayerForm>
+    <OptionForm Text="设置">
+		<gGroupBox1 Text="关闭">
+			<rbTray Text="最小化到托盘" />
+			<rbExit Text="退出" />
+		</gGroupBox1>	
+		<gGroupBox3 Text="语言">
+		<cbxLanguage Text="English">
+			<Items>English
+Français
+Italiano
+Português
+Español
+Deutsch
+日本語
+Brazilian
+</Items>
+		</cbxLanguage>
+		</gGroupBox3>	
+      <btnOk Text="确定" />
+      <btnCancel Text="取消" />
+    </OptionForm>
+    <RegisterForm Text="注册">
+      <gLabel_Email Text="授权邮箱:" />
+      <gLabel_Code Text="注册码:" />
+      <gButton_Register Text="注册" />
+      <gButton_Buy Text="现在购买" />
+      <gButton_FreeTrial Text="免费试用" />
+      <gLabel_EmailHint Text="无效的许可邮箱。" />
+      <gButton_Close Text="关闭" />	  
+    </RegisterForm>
+    <OrderForm Text="Wondershare Media Server">
+     <gLabel1 Text="试用版仅能传输5分钟以内的视频。" />
+     <gLabel3 Text="完全版本的好处包括：" />
+     <gLabel4 Text="主要特性" />
+     <gLabel7 Text="转换视频无长度限制" />
+     <gLabel9 Text="无限制下载100多个在线视频网站的视频" />
+     <gLabel15 Text="传输视频没有长度限制" />
+     <gLabel10 Text="直接下载YouTube歌曲" />
+     <gLabel11 Text="只需轻点一下即可下载YouTube频道和用户播放列表视频" />
+     <gLabel12 Text="内置极速下载加速器提升3倍下载速度" />
+     <gLabel13 Text="技术支持" />
+     <gLabel5 Text="试用" />
+     <gLabel8 Text="长度限制（1/3）" />
+     <gLabel14 Text="5次" />
+     <gLabel2 Text="5分钟" />
+     <gLabel6 Text="已注册" />    
+      <btnBuy Text="购买" />
+      <btnRegister Text="注册" />
+      <btnContinue Text="继续" />
+    </OrderForm>
+    <FlashForm>
+      <labCopyright Text="Copyright © 2014 Wondershare. All rights reserved." />
+    </FlashForm>
+    <FeedBackExceptionForm Text="问题报告">
+      <lbContentTitle Text="Wondershare Media Server意外退出。" />
+      <lbContentTip Text="点击“提交”将报告发送到Wondershare，此信息将会被匿名收集。" />
+      <lbContent Text="内容:" />
+      <txtContent PlaceHolderText="请输入您的评论或建议。" />
+      <chkLogSend Text="附加日志文件" />
+      <btnSend Text="发送" />
+    </FeedBackExceptionForm>
+	<FontSettingForm Text="字幕设置">
+      <lbStyle Text="样式：" />
+      <lbSize Text="大小：" />
+      <rbForward Text="前进" />
+      <rbBackword Text="Backword" />
+      <btnReset Text="重置" />
+      <btnOk Text="确定" />
+	</FontSettingForm>
+	<ExitConfirmForm Text="关闭">
+      <lblMore Text="要关闭程序或最小化到托盘吗？" />
+      <rbTray Text="最小化到托盘" />
+      <rbExit Text="退出" />
+      <cbCheck Text="不要再显示。" />
+      <btnYes Text="是" />
+      <btnNo Text="否" />
+	</ExitConfirmForm>	
+	<MovieInfoForm Text="匹配元数据">
+		<lbOverTips Text="情节摘要" />
+		<lbCastCrew Text="演职人员" />	
+		<lbActorsTip Text="演员" />	
+		<lbDirectorsTips Text="导演" />		
+		<lbModify Text="信息正确吗？" />		
+		<btnModify Text="更改" />		
+		<btnOK Text="确定" />		
+	</MovieInfoForm>
+	
+	<ModifyInfoForm Text="更改">
+		<lbName Text="名称：" />
+		<lbLanguage Text="语言" />	
+		<lbSeason Text="季节：" />	
+		<lbEpisode Text="插曲：" />		
+		<btnSearch Text="查找" />		
+		<cbxLanguage Text="English">
+			<Items>English
+Français
+Italiano
+Português
+Español
+Deutsch
+日本語
+Brazilian
+</Items>
+		</cbxLanguage>
+	</ModifyInfoForm>
+	<NoDeviceTipsForm>
+		<gLabel1 Text="新功能 - 通过以下设备将任何视频投影到电视屏幕：" />
+	</NoDeviceTipsForm>
+  </Forms>
+</LanguageResource>
